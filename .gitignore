@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Compiled CSS from Sass
+src/main.css
+src/main.css.map
+
+# VS Code user settings
+.vscode/
+
+# Optional eslint cache
+.eslintcache
