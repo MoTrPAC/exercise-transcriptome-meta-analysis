@@ -1,7 +1,8 @@
 @charset 'UTF-8';
 @import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'customVariables';
 @import 'base';
 @import 'header';
 @import 'footer';
-@import 'landing';
+@import 'analysis';
 @import 'about';
