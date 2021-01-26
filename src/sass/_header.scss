@@ -1,0 +1,74 @@
+.header-container {
+  .navbar {
+    .container {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+
+      .app-name {
+        color: $orange;
+        font-weight: 600;
+        line-height: 0%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+      }
+
+      .navbar-nav {
+        .nav-item {
+          font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          font-size: 1.3rem;
+          font-weight: 600;
+          margin-right: 1.15em;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          .nav-link {
+            padding-left: 0;
+            padding-right: 0;
+            text-decoration: none;
+            position: relative;
+            color: $gray-500;
+
+            &.active {
+              color: $orange;
+            }
+
+            &:hover {
+              color: $orange;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .header-container .navbar .container {
+    .header-logo {
+      margin-right: 0;
+    }
+
+    .app-name {
+      margin-top: 0.85em;
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+@media (max-width: 474px) {
+  .header-container .navbar .container {
+    .app-name {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 398px) {
+  .header-container .navbar .container {
+    .app-name {
+      font-size: 1.25rem;
+    }
+  }
+}
