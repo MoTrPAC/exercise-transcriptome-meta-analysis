@@ -22,7 +22,7 @@
         }
 
         .input-group {
-          min-width: 23.0em;
+          min-width: 20.0em;
         }
 
         #geneSymbolSearchInput {
@@ -127,14 +127,22 @@
 }
 
 @include media-breakpoint-down(lg) {
-  .human-gene-meta-analysis {
+  .analysis-page-container {
     .meta-analysis-content-container {
       flex-direction: column;
       justify-content: start !important;
 
+      .warning-note {
+        .material-icons {
+          display: none;
+        }
+      }
+
       .gene-search-container {
-        flex: 0 0 100%;
-        max-width: 100%;
+        .recent-search-terms {
+          margin-top: 1.0em;
+          margin-left: 0;
+        }
       }
 
       .meta-analysis-data-container {
@@ -152,5 +160,12 @@
         justify-content: start !important;
       }
     }
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .analysis-page-container {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
   }
 }
