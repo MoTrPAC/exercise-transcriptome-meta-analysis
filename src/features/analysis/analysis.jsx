@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import AnalysisActions from './analysisActions';
-import MetaAnalysisGenes, { summaryStats, metaAnalysisInput, metaAnalysisPlots } from '../../data/metaAnalysis';
+import MetaAnalysisGenes, { summaryStats, metaAnalysisInput } from '../../data/metaAnalysis';
 import iconLoading from '../../assets/icons/sync.png';
 
 /**
@@ -74,7 +74,7 @@ function Analysis({
               <tr className="table-head">
                 {Object.entries(geneStat).map(([key, value]) => {
                   return (
-                    <th scope="col" key={value}>{`${key}`}</th>
+                    <th scope="col" key={`stat-key-${value}`}>{`${key}`}</th>
                   );
                 })}
               </tr>
@@ -83,7 +83,7 @@ function Analysis({
               <tr>
                 {Object.entries(geneStat).map(([key, value]) => {
                   return (
-                    <td key={key}>{!Number.isNaN(classificationMathRound(Number(value), 2)) ? classificationMathRound(Number(value), 2) : value}</td>
+                    <td key={`stat-value-${key}`}>{!Number.isNaN(classificationMathRound(Number(value), 2)) ? classificationMathRound(Number(value), 2) : value}</td>
                   );
                 })}
               </tr>
@@ -173,21 +173,14 @@ function Analysis({
   }
 
   function renderForestPlot(tissue) {
-    let plot;
-    if (tissue === 'acute_blood') {
-      plot = metaAnalysisPlots.acute_blood.find((item) => item.geneSymbol === geneSymbol.toUpperCase());
-    } else if (tissue === 'acute_muscle') {
-      plot = metaAnalysisPlots.acute_muscle.find((item) => item.geneSymbol === geneSymbol.toUpperCase());
-    } else if (tissue === 'longterm_blood') {
-      plot = metaAnalysisPlots.longterm_blood.find((item) => item.geneSymbol === geneSymbol.toUpperCase());
-    } else if (tissue === 'longterm_muscle') {
-      plot = metaAnalysisPlots.longterm_muscle.find((item) => item.geneSymbol === geneSymbol.toUpperCase());
-    }
+    const foundInput = metaAnalysisInput[tissue].find((item) => item.geneSymbol === geneSymbol.toUpperCase());
 
-    if (plot && plot.plotSource) {
+    if (foundInput && foundInput.inputSource) {
+      const plot = `/assets/plots/${tissue}/${geneSymbol.toUpperCase()}.png`;
+
       return (
         <div className="plot-container">
-          <img className="img-fluid" src={plot.plotSource} alt={geneSymbol.toUpperCase()} />
+          <img className="img-fluid" src={plot} alt={geneSymbol.toUpperCase()} />
         </div>
       );
     }
