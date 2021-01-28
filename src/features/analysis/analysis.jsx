@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import AnalysisActions from './analysisActions';
 import MetaAnalysisGenes, { summaryStats, metaAnalysisInput, metaAnalysisPlots } from '../../data/metaAnalysis';
+import iconLoading from '../../assets/icons/sync.png';
 
 /**
  * Functional component to render human meta-analysis acute muscle data visualization
@@ -26,9 +27,9 @@ function Analysis({
     if (MetaAnalysisGenes.indexOf(queryString.toUpperCase()) > -1) {
       const match = summaryStats.acute_muscle.find((item) => item.Symbol === queryString.toUpperCase());
       fetchGeneData(match.Symbol, match.EntrezID);
+    } else {
+      return geneSearchFailure('No matching gene was found.');
     }
-
-    return geneSearchFailure('No matching gene was found.');
   }
   /**
    * Utility function - simple Math.round method
@@ -388,8 +389,8 @@ function Analysis({
         {/* meta-analysis data container */}
         {isGeneSearchInProgress && (
           <div className="meta-analysis-data-container container">
-            <div className="row">
-              <h5 className="font-italic">Loading...</h5>
+            <div className="row loading-ui">
+              <img src={iconLoading} className="in-progress-spinner" alt="Request in progress" />
             </div>
           </div>
         )}
