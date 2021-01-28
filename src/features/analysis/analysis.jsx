@@ -74,7 +74,7 @@ function Analysis({
               <tr className="table-head">
                 {Object.entries(geneStat).map(([key, value]) => {
                   return (
-                    <th scope="col" key={`stat-key-${value}`}>{`${key}`}</th>
+                    <th scope="col" key={`${tissue}-${key}-${value}`}>{`${key}`}</th>
                   );
                 })}
               </tr>
@@ -83,7 +83,7 @@ function Analysis({
               <tr>
                 {Object.entries(geneStat).map(([key, value]) => {
                   return (
-                    <td key={`stat-value-${key}`}>{!Number.isNaN(classificationMathRound(Number(value), 2)) ? classificationMathRound(Number(value), 2) : value}</td>
+                    <td key={`${tissue}-${value}-${key}`}>{!Number.isNaN(classificationMathRound(Number(value), 2)) ? classificationMathRound(Number(value), 2) : value}</td>
                   );
                 })}
               </tr>
