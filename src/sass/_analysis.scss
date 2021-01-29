@@ -1,17 +1,4 @@
 .analysis-page-container {
-  .warning-note {
-    padding: 0.6rem 0.75rem;
-
-    .material-icons {
-      line-height: 0;
-      margin-right: 0.25rem;
-    }
-
-    .close {
-      padding: 0.6rem 0.75rem;
-    }
-  }
-
   .meta-analysis-content-container {
     .gene-search-container {
       .gene-search-content {
@@ -131,12 +118,6 @@
     .meta-analysis-content-container {
       flex-direction: column;
       justify-content: start !important;
-
-      .warning-note {
-        .material-icons {
-          display: none;
-        }
-      }
 
       .gene-search-container {
         .recent-search-terms {

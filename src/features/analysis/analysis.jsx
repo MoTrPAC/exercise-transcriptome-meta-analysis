@@ -310,18 +310,6 @@ function Analysis({
       )}
       {/* main content section */}
       <div className="meta-analysis-content-container mt-3">
-        <div className="alert-container container mb-3">
-          <div className="row alert alert-warning alert-dismissible fade show warning-note d-flex align-items-center" role="alert">
-            <span className="material-icons">info</span>
-            <span className="warning-note-text">
-              The dataset for analysis in the current release only include
-              5 genes (FOXO1, ID1, PPARGC1A, SMAD3, VEGFA).
-            </span>
-            <button type="button" className="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-        </div>
         {/* gene search */}
         <div className="gene-search-container container px-0 mb-3">
           <div className="gene-search-content px-3 py-3 rounded-lg">
