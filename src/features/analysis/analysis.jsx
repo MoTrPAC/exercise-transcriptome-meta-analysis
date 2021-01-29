@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import AnalysisActions from './analysisActions';
-import MetaAnalysisGenes, { summaryStats, metaAnalysisInput } from '../../data/metaAnalysis';
+import MetaAnalysisGenes, { summaryStats } from '../../data/metaAnalysis';
 import iconLoading from '../../assets/icons/sync.png';
 
 /**
@@ -18,15 +18,19 @@ function Analysis({
   geneSearchInput,
   geneSymbol,
   isGeneSearchInProgress,
+  isInputFetchInProgress,
+  inputFetchPayload,
   handleGeneSearchInputChange,
   geneSearchFailure,
   fetchGeneData,
+  fetchAnalysisInput,
 }) {
   // Only a limited number of genes available in preliminary version
   function handleGeneSearchSubmission(queryString) {
     if (MetaAnalysisGenes.indexOf(queryString.toUpperCase()) > -1) {
       const match = summaryStats.acute_muscle.find((item) => item.Symbol === queryString.toUpperCase());
       fetchGeneData(match.Symbol, match.EntrezID);
+      fetchAnalysisInput(match.Symbol);
     } else {
       return geneSearchFailure('No matching gene was found.');
     }
@@ -100,21 +104,6 @@ function Analysis({
     )
   }
 
-  function getAnalysisInput(tissue) {
-    let analysisInput;
-    if (tissue === 'acute_blood') {
-      analysisInput = metaAnalysisInput.acute_blood.find((item) => item.geneSymbol === geneSymbol.toUpperCase());
-    } else if (tissue === 'acute_muscle') {
-      analysisInput = metaAnalysisInput.acute_muscle.find((item) => item.geneSymbol === geneSymbol.toUpperCase());
-    } else if (tissue === 'longterm_blood') {
-      analysisInput = metaAnalysisInput.longterm_blood.find((item) => item.geneSymbol === geneSymbol.toUpperCase());
-    } else if (tissue === 'longterm_muscle') {
-      analysisInput = metaAnalysisInput.longterm_muscle.find((item) => item.geneSymbol === geneSymbol.toUpperCase());
-    }
-
-    return analysisInput;
-  }
-
   // Renders table head of gene meta-analysis
   const renderMetaAnalysisTableHead = () => {
     return (
@@ -147,8 +136,7 @@ function Analysis({
 
   // Renders meta-analysis of a gene for acute muscle
   function renderAnalysisInput(tissue) {
-    const analysisInput = getAnalysisInput(tissue);
-    if (analysisInput && analysisInput.inputSource && analysisInput.inputSource.length) {
+    if (inputFetchPayload && inputFetchPayload[tissue] && inputFetchPayload[tissue].data) {
       return (
         <div className="analysis-input-container">
           <div className="table-responsive analysis-input-table-wrapper">
@@ -156,7 +144,7 @@ function Analysis({
               <thead className="thead-dark">
                 {renderMetaAnalysisTableHead()}
               </thead>
-              <tbody>{renderMetaAnalysisTableRows(analysisInput.inputSource)}</tbody>
+              <tbody>{renderMetaAnalysisTableRows(inputFetchPayload[tissue].data)}</tbody>
             </table>
           </div>
           <div className="note-comment d-flex align-items-center">
@@ -173,9 +161,7 @@ function Analysis({
   }
 
   function renderForestPlot(tissue) {
-    const foundInput = metaAnalysisInput[tissue].find((item) => item.geneSymbol === geneSymbol.toUpperCase());
-
-    if (foundInput && foundInput.inputSource) {
+    if (inputFetchPayload && inputFetchPayload[tissue] && inputFetchPayload[tissue].data) {
       const plot = `/assets/plots/${tissue}/${geneSymbol.toUpperCase()}.png`;
 
       return (
@@ -255,6 +241,7 @@ function Analysis({
   function renderResult() {
     if (
       !isGeneSearchInProgress &&
+      !isInputFetchInProgress &&
       !geneSearchError &&
       geneSearchPayload &&
       Object.keys(geneSearchPayload).length
@@ -380,7 +367,7 @@ function Analysis({
           </div>
         </div>
         {/* meta-analysis data container */}
-        {isGeneSearchInProgress && (
+        {(isGeneSearchInProgress || isInputFetchInProgress) && (
           <div className="meta-analysis-data-container container">
             <div className="row loading-ui">
               <img src={iconLoading} className="in-progress-spinner" alt="Request in progress" />
@@ -402,9 +389,14 @@ Analysis.propTypes = {
   geneSearchInput: PropTypes.string,
   geneSymbol: PropTypes.string,
   isGeneSearchInProgress: PropTypes.bool,
+  isInputFetchInProgress: PropTypes.bool,
+  inputFetchPayload: PropTypes.shape({
+    data: PropTypes.object,
+  }),
   handleGeneSearchInputChange: PropTypes.func.isRequired,
   geneSearchFailure: PropTypes.func.isRequired,
   fetchGeneData: PropTypes.func.isRequired,
+  fetchAnalysisInput: PropTypes.func.isRequired,
 };
 
 Analysis.defaultProps = {
@@ -414,6 +406,8 @@ Analysis.defaultProps = {
   geneSearchInput: '',
   geneSymbol: '',
   isGeneSearchInProgress: false,
+  isInputFetchInProgress: false,
+  inputFetchPayload: {},
 };
 
 const mapStateToProps = (state) => ({
@@ -427,6 +421,8 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(AnalysisActions.geneSearchFailure(geneSearchError)),
   fetchGeneData: (geneSymbol, geneId) =>
     dispatch(AnalysisActions.fetchGeneData(geneSymbol, geneId)),
+  fetchAnalysisInput: (geneSymbol) =>
+    dispatch(AnalysisActions.fetchAnalysisInput(geneSymbol)),
 });
 
 export default connect(

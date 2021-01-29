@@ -4,6 +4,8 @@ import {
   GENE_SEARCH_SUBMIT,
   GENE_SEARCH_FAILURE,
   GENE_SEARCH_SUCCESS,
+  INPUT_FETCH_BEGIN,
+  INPUT_FETCH_END,
 } from './analysisActions';
 
 export const defaultAnalysisState = {
@@ -13,6 +15,8 @@ export const defaultAnalysisState = {
   geneSearchInput: '',
   geneSymbol: '',
   isGeneSearchInProgress: false,
+  isInputFetchInProgress: false,
+  inputFetchPayload: {},
 };
 
 export default function AnalysisReducer(
@@ -64,6 +68,20 @@ export default function AnalysisReducer(
         isGeneSearchInProgress: false,
         geneSearchError: null,
       };
+
+    // Handle local data fetching
+    case INPUT_FETCH_BEGIN:
+      return {
+        ...state,
+        isInputFetchInProgress: true,
+      }
+
+    case INPUT_FETCH_END:
+      return {
+        ...state,
+        inputFetchPayload: action.inputFetchPayload,
+        isInputFetchInProgress: false,
+      }
     default:
       return state;
   }

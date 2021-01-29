@@ -5,6 +5,8 @@ export const GENE_SEARCH_INPUT_CHANGE = 'GENE_SEARCH_INPUT_CHANGE';
 export const GENE_SEARCH_SUBMIT = 'GENE_SEARCH_SUBMIT';
 export const GENE_SEARCH_FAILURE = 'GENE_SEARCH_FAILURE';
 export const GENE_SEARCH_SUCCESS = 'GENE_SEARCH_SUCCESS';
+export const INPUT_FETCH_BEGIN = 'INPUT_FETCH_BEGIN';
+export const INPUT_FETCH_END = 'INPUT_FETCH_END';
 
 function saveGeneSearchTerm(geneSymbol) {
   return {
@@ -41,6 +43,19 @@ function geneSearchSuccess(geneSearchPayload) {
   };
 }
 
+function inputFetchBegin() {
+  return {
+    type: INPUT_FETCH_BEGIN,
+  };
+}
+
+function inputFetchEnd(inputFetchPayload) {
+  return {
+    type: INPUT_FETCH_END,
+    inputFetchPayload,
+  };
+}
+
 // Handler for predefined searches
 function fetchGeneData(geneSymbol, geneId) {
   return (dispatch) => {
@@ -56,10 +71,55 @@ function fetchGeneData(geneSymbol, geneId) {
   };
 }
 
+function useNull() {
+  return null;
+}
+
+// Fetch local JSON source files for gene analysis input
+function fetchAnalysisInput(geneSymbol) {
+  return (dispatch) => {
+    dispatch(inputFetchBegin());
+    return axios
+      .all([
+        axios.get(
+          `/assets/input/acute_blood/${geneSymbol.toUpperCase()}.json`
+        ).catch(useNull),
+        axios.get(
+          `/assets/input/acute_muscle/${geneSymbol.toUpperCase()}.json`
+        ).catch(useNull),
+        axios.get(
+          `/assets/input/longterm_blood/${geneSymbol.toUpperCase()}.json`
+        ).catch(useNull),
+        axios.get(
+          `/assets/input/longterm_muscle/${geneSymbol.toUpperCase()}.json`
+        ).catch(useNull),
+      ])
+      .then(
+        axios.spread(
+          (
+            acuteBloodAnalysisInput,
+            acuteMuscleAnalysisInput,
+            longtermBloodAnalysisInput,
+            longtermMuscleAnalysisInput,
+          ) => {
+            const payload = {
+              acute_blood: acuteBloodAnalysisInput,
+              acute_muscle: acuteMuscleAnalysisInput,
+              longterm_blood: longtermBloodAnalysisInput,
+              longterm_muscle: longtermMuscleAnalysisInput,
+            };
+            dispatch(inputFetchEnd(payload));
+          }
+        )
+      );
+  };
+}
+
 const AnalysisActions = {
   geneSearchInputChange,
   geneSearchFailure,
   fetchGeneData,
+  fetchAnalysisInput,
 };
 
 export default AnalysisActions;
