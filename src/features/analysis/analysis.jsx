@@ -45,24 +45,9 @@ function Analysis({
   };
 
   function getSummaryStat(tissue) {
-    let geneStat;
-    if (tissue === 'acute_blood') {
-      geneStat = summaryStats.acute_blood.find(
+    const geneStat = summaryStats[tissue].find(
         (item) => item.Symbol === geneSymbol.toUpperCase()
       );
-    } else if (tissue === 'acute_muscle') {
-      geneStat = summaryStats.acute_muscle.find(
-        (item) => item.Symbol === geneSymbol.toUpperCase()
-      );
-    } else if (tissue === 'longterm_blood') {
-      geneStat = summaryStats.longterm_blood.find(
-        (item) => item.Symbol === geneSymbol.toUpperCase()
-      );
-    } else if (tissue === 'longterm_muscle') {
-      geneStat = summaryStats.longterm_muscle.find(
-        (item) => item.Symbol === geneSymbol.toUpperCase()
-      );
-    }
 
     return geneStat;
   }
@@ -162,11 +147,16 @@ function Analysis({
 
   function renderForestPlot(tissue) {
     if (inputFetchPayload && inputFetchPayload[tissue] && inputFetchPayload[tissue].data) {
-      const plot = `/assets/plots/${tissue}/${geneSymbol.toUpperCase()}.png`;
+      const plot = `https://cdn-data-assets.extrameta.org/plots/${tissue}/${geneSymbol.toUpperCase()}.png`;
 
       return (
         <div className="plot-container">
-          <img className="img-fluid" src={plot} alt={geneSymbol.toUpperCase()} />
+          <img className="img-fluid plot-image" src={plot} alt={geneSymbol.toUpperCase()}
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = '1-pixel.gif';
+            }}
+          />
         </div>
       );
     }
