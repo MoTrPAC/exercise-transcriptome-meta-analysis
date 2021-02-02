@@ -60,7 +60,7 @@ function inputFetchEnd(inputFetchPayload) {
 function fetchGeneData(geneSymbol, geneId) {
   return (dispatch) => {
     dispatch(geneSearchSubmit(geneSymbol.toUpperCase()));
-    return axios.get(`http://mygene.info/v3/gene/${geneId}?fields=name,summary`)
+    return axios.get(`https://mygene.info/v3/gene/${geneId}?fields=name,summary`)
       .then((response) => {
         dispatch(geneSearchSuccess(response.data));
         dispatch(saveGeneSearchTerm(geneSymbol.toUpperCase()));
