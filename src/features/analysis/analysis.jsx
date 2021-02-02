@@ -290,9 +290,9 @@ function Analysis({
         <section className="page-section">
           <div className="container">
             <div className="row text-left">
-              <h2 className="section-heading">Human meta-analysis on published data</h2>
+              <h2 className="section-heading">Meta-analysis of published exercise transcriptome data from human muscle and blood</h2>
               <p className="text-muted">
-                This analysis includes two sub-analyses: the meta-analysis of public data and the gene time course clustering. It displays up and down regulations. Gene lists are detected for interpretation.
+                This meta-analysis has been conducted on public transcriptome data from 1,724 samples. The analysis includes two sub-analyses: a meta-analysis of all cohorts and a gene-based time course clustering. The results are separated into "Acute Blood", "Acute Muscle", "Longterm Blood" and "Longterm Muscle", where acute means a single bout of endurance or resistance exercise.
               </p>
             </div>
           </div>
