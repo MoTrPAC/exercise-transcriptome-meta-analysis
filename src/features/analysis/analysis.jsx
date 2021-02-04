@@ -1,9 +1,40 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import Autosuggest from 'react-autosuggest';
 import AnalysisActions from './analysisActions';
 import MetaAnalysisGenes, { summaryStats } from '../../data/metaAnalysis';
 import iconLoading from '../../assets/icons/sync.png';
+
+/**
+ * Function to return a list of suggested genes
+ */
+function getSuggestions(value) {
+  const inputValue = value.trim().toUpperCase();
+  const inputLength = inputValue.length;
+
+  return inputLength === 0 ? [] : MetaAnalysisGenes.filter((gene) =>
+    gene.toUpperCase().slice(0, inputLength) === inputValue
+  );
+}
+
+/**
+ * Function to return the selected gene value
+ */
+function getSuggestionValue(suggestion) {
+  return suggestion;
+}
+
+/**
+ * Function to render a given gene in the suggested list
+ */
+function renderSuggestion(suggestion) {
+  return (
+    <span className="gene-suggestions-list-item">
+      {suggestion}
+    </span>
+  );
+}
 
 /**
  * Functional component to render human meta-analysis acute muscle data visualization
@@ -17,10 +48,13 @@ function Analysis({
   geneSearchError,
   geneSearchInput,
   geneSymbol,
+  geneSuggestions,
   isGeneSearchInProgress,
   isInputFetchInProgress,
   inputFetchPayload,
   handleGeneSearchInputChange,
+  handleGeneSuggestionsFetch,
+  handleGeneSuggestionsClear,
   geneSearchFailure,
   fetchGeneData,
   fetchAnalysisInput,
@@ -28,7 +62,7 @@ function Analysis({
   // Only a limited number of genes available in preliminary version
   function handleGeneSearchSubmission(queryString) {
     if (MetaAnalysisGenes.indexOf(queryString.toUpperCase()) > -1) {
-      const match = summaryStats.acute_muscle.find((item) => item.Symbol === queryString.toUpperCase());
+      const match = summaryStats.longterm_muscle.find((item) => item.Symbol === queryString.toUpperCase());
       fetchGeneData(match.Symbol, match.EntrezID);
       fetchAnalysisInput(match.Symbol);
     } else {
@@ -98,6 +132,10 @@ function Analysis({
         <th scope="col" className="gene-meta-analysis-label text-nowrap">Training</th>
         <th scope="col" className="gene-meta-analysis-label text-nowrap">Avg Age</th>
         <th scope="col" className="gene-meta-analysis-label text-nowrap">Age SD</th>
+        <th scope="col" className="gene-meta-analysis-label text-nowrap">Prop Males</th>
+        <th scope="col" className="gene-meta-analysis-label text-nowrap">Time</th>
+        <th scope="col" className="gene-meta-analysis-label text-nowrap">N</th>
+        <th scope="col" className="gene-meta-analysis-label text-nowrap">Beta</th>
         <th scope="col" className="gene-meta-analysis-label text-nowrap">SDD</th>
       </tr>
     );
@@ -112,6 +150,10 @@ function Analysis({
         <td className="gene-meta-analysis-value text-nowrap">{item.training}</td>
         <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.avg_age), 2)}</td>
         <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.age_sd), 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.prop_males), 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{item.time}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{item.N}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.yi), 2)}</td>
         <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.sdd), 2)}</td>
       </tr>
     ));
@@ -210,7 +252,7 @@ function Analysis({
           <dt>Name:</dt>
           <dd>{geneSearchPayload.name}</dd>
           <dt>Summary:</dt>
-          <dd>{geneSearchPayload.summary}</dd>
+          <dd>{geneSearchPayload.summary ? geneSearchPayload.summary : 'Summary was not found.'}</dd>
         </dl>
       );
     }
@@ -283,6 +325,27 @@ function Analysis({
     return null;
   }
 
+  // Start:: implementation of auto suggestions of genes
+  const onChange = (event, { newValue, method }) => {
+    handleGeneSearchInputChange(newValue);
+  };
+
+  const onSuggestionsFetchRequested = () => {
+    const suggestions = getSuggestions(geneSearchInput);
+    handleGeneSuggestionsFetch(suggestions);
+  };
+
+  const onSuggestionsClearRequested = () => {
+    handleGeneSuggestionsClear();
+  };
+
+  const inputProps = {
+    placeholder: 'Search a gene for analysis',
+    value: geneSearchInput,
+    onChange: onChange,
+  };
+  // End:: implementation of auto suggestions of genes
+
   return (
     <div className="analysis-page-container">
       {/* header section */}
@@ -313,6 +376,7 @@ function Analysis({
               }}
             >
               <div className="input-group ml-2">
+                {/*
                 <input
                   type="text"
                   className="form-control"
@@ -325,6 +389,15 @@ function Analysis({
                     e.preventDefault();
                     handleGeneSearchInputChange(e);
                   }}
+                />
+                */}
+                <Autosuggest
+                  suggestions={geneSuggestions}
+                  onSuggestionsFetchRequested={onSuggestionsFetchRequested}
+                  onSuggestionsClearRequested={onSuggestionsClearRequested}
+                  getSuggestionValue={getSuggestionValue}
+                  renderSuggestion={renderSuggestion}
+                  inputProps={inputProps}
                 />
                 <div className="input-group-append">
                   <button
@@ -366,12 +439,15 @@ Analysis.propTypes = {
   geneSearchError: PropTypes.string,
   geneSearchInput: PropTypes.string,
   geneSymbol: PropTypes.string,
+  geneSuggestions: PropTypes.arrayOf(PropTypes.string),
   isGeneSearchInProgress: PropTypes.bool,
   isInputFetchInProgress: PropTypes.bool,
   inputFetchPayload: PropTypes.shape({
     data: PropTypes.object,
   }),
   handleGeneSearchInputChange: PropTypes.func.isRequired,
+  handleGeneSuggestionsFetch: PropTypes.func.isRequired,
+  handleGeneSuggestionsClear: PropTypes.func.isRequired,
   geneSearchFailure: PropTypes.func.isRequired,
   fetchGeneData: PropTypes.func.isRequired,
   fetchAnalysisInput: PropTypes.func.isRequired,
@@ -383,6 +459,7 @@ Analysis.defaultProps = {
   geneSearchError: null,
   geneSearchInput: '',
   geneSymbol: '',
+  geneSuggestions: [],
   isGeneSearchInProgress: false,
   isInputFetchInProgress: false,
   inputFetchPayload: {},
@@ -393,8 +470,12 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  handleGeneSearchInputChange: (e) =>
-    dispatch(AnalysisActions.geneSearchInputChange(e)),
+  handleGeneSearchInputChange: (geneInputValue) =>
+    dispatch(AnalysisActions.geneSearchInputChange(geneInputValue)),
+  handleGeneSuggestionsFetch: (suggestions) =>
+    dispatch(AnalysisActions.geneSuggestionsFetch(suggestions)),
+  handleGeneSuggestionsClear: () =>
+    dispatch(AnalysisActions.geneSuggestionsClear()),
   geneSearchFailure: (geneSearchError) =>
     dispatch(AnalysisActions.geneSearchFailure(geneSearchError)),
   fetchGeneData: (geneSymbol, geneId) =>

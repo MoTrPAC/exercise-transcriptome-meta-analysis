@@ -8,18 +8,6 @@
           position: relative;
         }
 
-        .input-group {
-          min-width: 20.0em;
-        }
-
-        #geneSymbolSearchInput {
-          border-color: $dark;
-          
-          &::placeholder {
-            color: $gray-500;
-          }
-        }
-
         button.submit-gene-search {
           line-height: 0;
         }
@@ -113,6 +101,83 @@
   }
 }
 
+/* auto-suggest styles */
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  display: inline-block;
+  width: 270px;
+  min-width: 0;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border: 1px solid $dark;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  flex: 1 1 auto;
+  margin-bottom: 0;
+  z-index: 3;
+
+  &::placeholder {
+    color: $gray-500;
+    opacity: 1;
+  }
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  background-color: #fff;
+  border: 1px solid $dark;
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  position: absolute;
+  top: calc(1.5em + .75rem + 1px);
+  width: 270px;
+  max-height: 360px;
+  overflow-y: scroll;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: .35rem .75rem;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: $gray-200;
+}
+
+/* responsive styles */
 @include media-breakpoint-down(lg) {
   .analysis-page-container {
     .meta-analysis-content-container {

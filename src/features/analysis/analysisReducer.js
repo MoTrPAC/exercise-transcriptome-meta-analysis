@@ -1,6 +1,8 @@
 import {
   SAVE_GENE_SEARCH_TERM,
   GENE_SEARCH_INPUT_CHANGE,
+  GENE_SUGGESTIONS_FETCH,
+  GENE_SUGGESTIONS_CLEAR,
   GENE_SEARCH_SUBMIT,
   GENE_SEARCH_FAILURE,
   GENE_SEARCH_SUCCESS,
@@ -14,6 +16,7 @@ export const defaultAnalysisState = {
   geneSearchError: null,
   geneSearchInput: '',
   geneSymbol: '',
+  geneSuggestions: [],
   isGeneSearchInProgress: false,
   isInputFetchInProgress: false,
   inputFetchPayload: {},
@@ -42,6 +45,20 @@ export default function AnalysisReducer(
         ...state,
         geneSearchInput: action.inputValue,
       };
+
+    // Handle auto suggestions of genes
+    case GENE_SUGGESTIONS_FETCH:
+      return {
+        ...state,
+        geneSuggestions: action.geneSuggestions,
+      };
+
+    // Clear gene suggestions
+    case GENE_SUGGESTIONS_CLEAR:
+      return {
+        ...state,
+        geneSuggestions: [],
+      }
 
     // Handle form submit event
     case GENE_SEARCH_SUBMIT:
