@@ -35,8 +35,10 @@
         animation-duration: 1.75s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
-        height: 5%;
-        width: 5%;
+        -webkit-filter: opacity(50%);
+        filter: opacity(50%);
+        height: 4%;
+        width: 4%;
       }
   
       @keyframes spinner {
