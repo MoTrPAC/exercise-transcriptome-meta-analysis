@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Autosuggest from 'react-autosuggest';
+import fromExponential from 'from-exponential';
 import AnalysisActions from './analysisActions';
 import MetaAnalysisGenes, { summaryStats } from '../../data/metaAnalysis';
 import iconLoading from '../../assets/icons/sync.png';
@@ -69,13 +70,24 @@ function Analysis({
       return geneSearchFailure('No matching gene was found.');
     }
   }
+
   /**
    * Utility function - simple Math.round method
    * alternative #1 - Math.round(num * 10) / 10; //*** returns 1 decimal
    * alternative #2 - Math.round((num + 0.00001) * 100) / 100; //*** returns 2 decimals
    */
-  const classificationMathRound = (number, decimals) => {
-    return Number(Math.round(number + ('e' + decimals)) + ('e-' + decimals));
+  const mathRoundDecimals = (number, decimals) => {
+    // Truncate decimals with exponential notation
+    if (number && parseFloat(number) != 0 && number.toString().indexOf('e-') > -1) {
+      const rawExponential = fromExponential(parseFloat(number));
+      return Number.parseFloat(rawExponential).toExponential(2);
+    } else if (number && parseFloat(number) != 0 && -Math.floor( Math.log10(parseFloat(number)) + 1) >= 2) {
+      return Number.parseFloat(number).toExponential(2);
+    } else if (number === null || number === undefined) {
+      return '--';
+    } else {
+      return Number(Math.round(parseFloat(number) + ('e' + decimals)) + ('e-' + decimals));
+    }
   };
 
   function getSummaryStat(tissue) {
@@ -106,7 +118,7 @@ function Analysis({
               <tr>
                 {Object.entries(geneStat).map(([key, value]) => {
                   return (
-                    <td key={`${tissue}-${value}-${key}`}>{!Number.isNaN(classificationMathRound(Number(value), 2)) ? classificationMathRound(Number(value), 2) : value}</td>
+                    <td key={`${tissue}-${value}-${key}`}>{!Number.isNaN(mathRoundDecimals(value, 2)) ? mathRoundDecimals(value, 2) : value}</td>
                   );
                 })}
               </tr>
@@ -148,13 +160,13 @@ function Analysis({
         <td className="gene-meta-analysis-value text-nowrap">{item.V1}</td>
         <td className="gene-meta-analysis-value text-nowrap">{item.gse}</td>
         <td className="gene-meta-analysis-value text-nowrap">{item.training}</td>
-        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.avg_age), 2)}</td>
-        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.age_sd), 2)}</td>
-        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.prop_males), 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{mathRoundDecimals(item.avg_age, 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{mathRoundDecimals(item.age_sd, 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{mathRoundDecimals(item.prop_males, 2)}</td>
         <td className="gene-meta-analysis-value text-nowrap">{item.time}</td>
         <td className="gene-meta-analysis-value text-nowrap">{item.N}</td>
-        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.yi), 2)}</td>
-        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.sdd), 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{mathRoundDecimals(item.yi, 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{mathRoundDecimals(item.sdd, 2)}</td>
       </tr>
     ));
 
