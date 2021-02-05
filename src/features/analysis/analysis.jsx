@@ -84,7 +84,7 @@ function Analysis({
     } else if (number && parseFloat(number) != 0 && -Math.floor( Math.log10(parseFloat(number)) + 1) >= 2) {
       return Number.parseFloat(number).toExponential(2);
     } else if (number === null || number === undefined) {
-      return '--';
+      return 'Unavailable';
     } else {
       return Number(Math.round(parseFloat(number) + ('e' + decimals)) + ('e-' + decimals));
     }
