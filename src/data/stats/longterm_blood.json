@@ -18,7 +18,7 @@
     "Tau2(base model)": "3.60904273105964e-07",
     "Selected model name": "base_model (simple RE)",
     "P-value": "4.52945385811719e-05",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.2265677765461",
     "AICcDiff": "-0.000102916683225374",
     "Selected": "TRUE"
@@ -54,7 +54,7 @@
     "Tau2(base model)": "0.00438706423670132",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0246538038664413",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5362251968401",
     "AICcDiff": "-2.9538327339651e-10",
     "Selected": "FALSE"
@@ -66,7 +66,7 @@
     "Tau2(base model)": "7.48403987772021e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "1.86766589640878e-05",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.0911067452192",
     "AICcDiff": "-0.000716228579058509",
     "Selected": "TRUE"
@@ -78,7 +78,7 @@
     "Tau2(base model)": "0.0252095291548626",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.154291659627472",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5606640271941",
     "AICcDiff": "-1.33203492680423e-09",
     "Selected": "FALSE"
@@ -90,7 +90,7 @@
     "Tau2(base model)": "0.074353127583716",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.796106820321068",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.8392277101727",
     "AICcDiff": "-1.43121070550478e-10",
     "Selected": "FALSE"
@@ -102,7 +102,7 @@
     "Tau2(base model)": "0.0771737670126827",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.822935010869849",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.8420234475148",
     "AICcDiff": "-3.3978153624048e-11",
     "Selected": "FALSE"
@@ -114,7 +114,7 @@
     "Tau2(base model)": "0.0571351198097441",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.583738202303613",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.2789021795922",
     "AICcDiff": "-5.63709079415275e-11",
     "Selected": "FALSE"
@@ -126,7 +126,7 @@
     "Tau2(base model)": "0.00456376039416816",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0241751656291124",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.2265844136037",
     "AICcDiff": "-7.75235875494218e-10",
     "Selected": "FALSE"
@@ -138,7 +138,7 @@
     "Tau2(base model)": "0.00477327605057489",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0456135530714852",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.8271488642932",
     "AICcDiff": "-3.73806301467994e-08",
     "Selected": "FALSE"
@@ -150,7 +150,7 @@
     "Tau2(base model)": "0.0121754205249034",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.205864893321737",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3229052533167",
     "AICcDiff": "-2.9579894089693e-11",
     "Selected": "FALSE"
@@ -162,7 +162,7 @@
     "Tau2(base model)": "0.000781488610973497",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0046483285998435",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.9341179094991",
     "AICcDiff": "-6.33523217885568e-07",
     "Selected": "FALSE"
@@ -174,7 +174,7 @@
     "Tau2(base model)": "0.0595319648085457",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.151778934394211",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.4554523824013",
     "AICcDiff": "-2.59561261373165e-11",
     "Selected": "FALSE"
@@ -186,7 +186,7 @@
     "Tau2(base model)": "0.0100519238249378",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0465383632972085",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.8024795888722",
     "AICcDiff": "-7.2656227700918e-09",
     "Selected": "FALSE"
@@ -198,7 +198,7 @@
     "Tau2(base model)": "0.0124650709694638",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.104989802904476",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.8697039913667",
     "AICcDiff": "-7.7964301681277e-11",
     "Selected": "FALSE"
@@ -210,7 +210,7 @@
     "Tau2(base model)": "0.00485350051665563",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0712843859621787",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5349416805581",
     "AICcDiff": "-7.63552243654431e-08",
     "Selected": "FALSE"
@@ -222,7 +222,7 @@
     "Tau2(base model)": "0.013622260943387",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0881468065647566",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.174333293543",
     "AICcDiff": "-3.24671844964541e-09",
     "Selected": "FALSE"
@@ -234,7 +234,7 @@
     "Tau2(base model)": "0.0688160044651512",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.459290903061605",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.4985640908513",
     "AICcDiff": "-1.91242577329831e-11",
     "Selected": "FALSE"
@@ -246,7 +246,7 @@
     "Tau2(base model)": "0.0284408334249851",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0811133085566303",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.9452416522305",
     "AICcDiff": "-2.75770517532692e-10",
     "Selected": "FALSE"
@@ -258,7 +258,7 @@
     "Tau2(base model)": "0.0156805600725578",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.076440382947262",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6844756654367",
     "AICcDiff": "-6.87503387553079e-10",
     "Selected": "FALSE"
@@ -270,7 +270,7 @@
     "Tau2(base model)": "0.00185842806415448",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0113008206866876",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.9408334923435",
     "AICcDiff": "-5.90780757647735e-11",
     "Selected": "FALSE"
@@ -282,7 +282,7 @@
     "Tau2(base model)": "0.00416072947045553",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.686751934312016",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.1530415056966",
     "AICcDiff": "-3.37913164116799e-09",
     "Selected": "FALSE"
@@ -294,7 +294,7 @@
     "Tau2(base model)": "0.013944800495207",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.558024645020319",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.5037337852561",
     "AICcDiff": "-2.55550247629799e-10",
     "Selected": "FALSE"
@@ -306,7 +306,7 @@
     "Tau2(base model)": "0.0182323104588242",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.180544827582067",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.9901666014803",
     "AICcDiff": "-6.8098415795248e-11",
     "Selected": "FALSE"
@@ -318,7 +318,7 @@
     "Tau2(base model)": "0.0217267195332224",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.203940681727206",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3685839572645",
     "AICcDiff": "-9.45021838560933e-13",
     "Selected": "FALSE"
@@ -330,7 +330,7 @@
     "Tau2(base model)": "0.0329133764705278",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.929341116324743",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.3482249394735",
     "AICcDiff": "-5.62145885396603e-11",
     "Selected": "FALSE"
@@ -342,7 +342,7 @@
     "Tau2(base model)": "0.0053097573710569",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.104039661332022",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.9404719262935",
     "AICcDiff": "-3.13704617838084e-12",
     "Selected": "FALSE"
@@ -354,7 +354,7 @@
     "Tau2(base model)": "0.0356205984206621",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.306292084730452",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.3041330780121",
     "AICcDiff": "-1.67057478961397e-10",
     "Selected": "FALSE"
@@ -366,7 +366,7 @@
     "Tau2(base model)": "0.0623782741225855",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.821338713506515",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.2616233194245",
     "AICcDiff": "-8.88178419700125e-14",
     "Selected": "FALSE"
@@ -378,7 +378,7 @@
     "Tau2(base model)": "0.023581249032665",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.29030134607115",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.209626843165",
     "AICcDiff": "-1.27395338722636e-09",
     "Selected": "FALSE"
@@ -390,7 +390,7 @@
     "Tau2(base model)": "0.0293945744493583",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.847320664195252",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.7228810340016",
     "AICcDiff": "-3.5527136788005e-15",
     "Selected": "FALSE"
@@ -402,7 +402,7 @@
     "Tau2(base model)": "0.0018496895979464",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0105311775368232",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.9508463110933",
     "AICcDiff": "-6.56889476147171e-09",
     "Selected": "FALSE"
@@ -414,7 +414,7 @@
     "Tau2(base model)": "0.0126800025665924",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.077390331987203",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3307055504265",
     "AICcDiff": "-6.27045082524091e-10",
     "Selected": "FALSE"
@@ -426,7 +426,7 @@
     "Tau2(base model)": "0.0273134333901996",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.710846768155652",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.9096003587126",
     "AICcDiff": "-1.04394715094713e-10",
     "Selected": "FALSE"
@@ -438,7 +438,7 @@
     "Tau2(base model)": "0.0486500069414143",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.376576058151788",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.8602360401065",
     "AICcDiff": "-6.3948846218409e-14",
     "Selected": "FALSE"
@@ -450,7 +450,7 @@
     "Tau2(base model)": "0.0125327004468769",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.396166326201908",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5594281609639",
     "AICcDiff": "-7.50475575017617e-08",
     "Selected": "FALSE"
@@ -462,7 +462,7 @@
     "Tau2(base model)": "0.0109179844096766",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0454737505167333",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3030467406449",
     "AICcDiff": "-3.59012375383827e-10",
     "Selected": "FALSE"
@@ -474,7 +474,7 @@
     "Tau2(base model)": "0.00780373687081256",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0614139660963182",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.6103082476536",
     "AICcDiff": "-6.10677730605858e-10",
     "Selected": "FALSE"
@@ -486,7 +486,7 @@
     "Tau2(base model)": "0.059880152235152",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.72555966131109",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.4117497784885",
     "AICcDiff": "-2.6360424953964e-10",
     "Selected": "FALSE"
@@ -498,7 +498,7 @@
     "Tau2(base model)": "0.00227031697767039",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00152923605361888",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.735066621727",
     "AICcDiff": "-2.59984922479362e-09",
     "Selected": "FALSE"
@@ -510,7 +510,7 @@
     "Tau2(base model)": "0.0288677925592598",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.863618327960893",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.270141774713",
     "AICcDiff": "-9.73443547991337e-13",
     "Selected": "FALSE"
@@ -534,7 +534,7 @@
     "Tau2(base model)": "0.0214472489988682",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.858760405958395",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3679137156469",
     "AICcDiff": "-2.71997535605806e-10",
     "Selected": "FALSE"
@@ -546,7 +546,7 @@
     "Tau2(base model)": "0.00705120593089237",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0259667161639199",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.8915907764463",
     "AICcDiff": "-1.17133431842831e-08",
     "Selected": "FALSE"
@@ -558,7 +558,7 @@
     "Tau2(base model)": "0.00490628150229431",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00145125534165082",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.6659555176131",
     "AICcDiff": "-1.41192799674172e-08",
     "Selected": "FALSE"
@@ -570,7 +570,7 @@
     "Tau2(base model)": "0.0263848994245199",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.630320076172279",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6651146836758",
     "AICcDiff": "-4.16289225313449e-10",
     "Selected": "FALSE"
@@ -582,7 +582,7 @@
     "Tau2(base model)": "0.00770144871748678",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.12559303250321",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2922485156179",
     "AICcDiff": "-6.11228987423829e-08",
     "Selected": "FALSE"
@@ -594,7 +594,7 @@
     "Tau2(base model)": "0.0160957822066772",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.550454591878471",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6124577503634",
     "AICcDiff": "-2.97522610992473e-08",
     "Selected": "FALSE"
@@ -606,7 +606,7 @@
     "Tau2(base model)": "0.0107303917671286",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.262346994110462",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.9466101115343",
     "AICcDiff": "-4.97344441185987e-08",
     "Selected": "FALSE"
@@ -618,7 +618,7 @@
     "Tau2(base model)": "0.0525601176379361",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.96598847554949",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.2136032726673",
     "AICcDiff": "-8.83417783370533e-11",
     "Selected": "FALSE"
@@ -654,7 +654,7 @@
     "Tau2(base model)": "3.11436501677454e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000343842151715356",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.38855754871",
     "AICcDiff": "-0.00148488327401708",
     "Selected": "FALSE"
@@ -666,7 +666,7 @@
     "Tau2(base model)": "0.0255558435239285",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.925205504316847",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6479302758003",
     "AICcDiff": "-1.91491267287347e-11",
     "Selected": "FALSE"
@@ -678,7 +678,7 @@
     "Tau2(base model)": "0.0210665462688752",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.711871735204654",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.2685439479403",
     "AICcDiff": "-3.13136183649476e-10",
     "Selected": "FALSE"
@@ -690,7 +690,7 @@
     "Tau2(base model)": "0.0185603263708926",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.87041037799085",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0741158874508",
     "AICcDiff": "-4.71622740860766e-11",
     "Selected": "FALSE"
@@ -702,7 +702,7 @@
     "Tau2(base model)": "0.0133395461827001",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.678069019735298",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.5291494931977",
     "AICcDiff": "-6.47093756356298e-09",
     "Selected": "FALSE"
@@ -714,7 +714,7 @@
     "Tau2(base model)": "0.0692164993107751",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.112985633610672",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.602818189879",
     "AICcDiff": "-1.26192389870994e-10",
     "Selected": "FALSE"
@@ -726,7 +726,7 @@
     "Tau2(base model)": "0.0213665564925789",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.459166318652863",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3796189525076",
     "AICcDiff": "-7.29386329112458e-10",
     "Selected": "FALSE"
@@ -738,7 +738,7 @@
     "Tau2(base model)": "0.0569927244965535",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.734002553490682",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.2940394538212",
     "AICcDiff": "-3.5171865420125e-11",
     "Selected": "FALSE"
@@ -750,7 +750,7 @@
     "Tau2(base model)": "0.0450038209139671",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.415677743875711",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.8375479508002",
     "AICcDiff": "-7.27506943576373e-11",
     "Selected": "FALSE"
@@ -762,7 +762,7 @@
     "Tau2(base model)": "0.00791027657185001",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.140366228126779",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.9089999073132",
     "AICcDiff": "-1.76981238553253e-07",
     "Selected": "FALSE"
@@ -774,7 +774,7 @@
     "Tau2(base model)": "0.00185807996953828",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0840211399664327",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.0270734726782",
     "AICcDiff": "-1.96289697740326e-06",
     "Selected": "FALSE"
@@ -786,7 +786,7 @@
     "Tau2(base model)": "0.13207648737988",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.733356153472229",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.9965177229204",
     "AICcDiff": "-2.27373675443232e-12",
     "Selected": "FALSE"
@@ -810,7 +810,7 @@
     "Tau2(base model)": "0.0034453326028151",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0244424489947575",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.1708275968086",
     "AICcDiff": "-1.34635413928663e-10",
     "Selected": "FALSE"
@@ -822,7 +822,7 @@
     "Tau2(base model)": "0.00601799595827659",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0507470237079996",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.1839977423296",
     "AICcDiff": "-1.84553528015385e-09",
     "Selected": "FALSE"
@@ -834,7 +834,7 @@
     "Tau2(base model)": "0.0465927166628853",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.840141285453929",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.7837022465981",
     "AICcDiff": "-1.08890674255235e-12",
     "Selected": "FALSE"
@@ -846,7 +846,7 @@
     "Tau2(base model)": "6.99122897411771e-07",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00112673082182184",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.9311933827348",
     "AICcDiff": "-0.000157807914938246",
     "Selected": "FALSE"
@@ -870,7 +870,7 @@
     "Tau2(base model)": "0.00214180620419433",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0341893874406452",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.3963581839879",
     "AICcDiff": "-1.35212986762667e-06",
     "Selected": "FALSE"
@@ -882,7 +882,7 @@
     "Tau2(base model)": "0.0460216876177714",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.373815711719999",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.9709731716127",
     "AICcDiff": "-6.29808383223462e-09",
     "Selected": "FALSE"
@@ -894,7 +894,7 @@
     "Tau2(base model)": "0.0212479029464072",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.618232637917323",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4548043643527",
     "AICcDiff": "-2.27373675443232e-13",
     "Selected": "FALSE"
@@ -918,7 +918,7 @@
     "Tau2(base model)": "0.0485615608424238",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.978269330140934",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.9745441184498",
     "AICcDiff": "-1.66977542903624e-13",
     "Selected": "FALSE"
@@ -930,7 +930,7 @@
     "Tau2(base model)": "0.0129835165263594",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.757683630964308",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2909833115833",
     "AICcDiff": "-4.41957581642782e-12",
     "Selected": "FALSE"
@@ -942,7 +942,7 @@
     "Tau2(base model)": "0.344903089934527",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.613015196667281",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "19.9429467134631",
     "AICcDiff": "-4.9880100050359e-12",
     "Selected": "FALSE"
@@ -954,7 +954,7 @@
     "Tau2(base model)": "0.00381075667512287",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0268496863951749",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.2560143673391",
     "AICcDiff": "-3.37507799486048e-14",
     "Selected": "FALSE"
@@ -966,7 +966,7 @@
     "Tau2(base model)": "0.0199594478727222",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.943733773917486",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.271170693756",
     "AICcDiff": "-2.22483365064363e-10",
     "Selected": "FALSE"
@@ -978,7 +978,7 @@
     "Tau2(base model)": "0.00671155602352172",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0539934659934184",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5728513249533",
     "AICcDiff": "-1.85806925401266e-12",
     "Selected": "FALSE"
@@ -990,7 +990,7 @@
     "Tau2(base model)": "0.00577884102242322",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.106089570640325",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.2655501532666",
     "AICcDiff": "-8.62133475720839e-10",
     "Selected": "FALSE"
@@ -1002,7 +1002,7 @@
     "Tau2(base model)": "0.0243281488849969",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.6440524250126",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4759784232587",
     "AICcDiff": "-9.96891458271421e-12",
     "Selected": "FALSE"
@@ -1014,7 +1014,7 @@
     "Tau2(base model)": "0.0124134021501093",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.323547545588269",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2737219531814",
     "AICcDiff": "-6.11066752753686e-13",
     "Selected": "FALSE"
@@ -1038,7 +1038,7 @@
     "Tau2(base model)": "0.00441900572732464",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0103088795496488",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.5652161303269",
     "AICcDiff": "-6.0643579047337e-09",
     "Selected": "FALSE"
@@ -1050,7 +1050,7 @@
     "Tau2(base model)": "0.0181985364883161",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.355514046391216",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0132166850608",
     "AICcDiff": "-4.6719961233066e-11",
     "Selected": "FALSE"
@@ -1062,7 +1062,7 @@
     "Tau2(base model)": "0.0162764722647271",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.124395454246204",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.30160148076",
     "AICcDiff": "-1.02371799926004e-09",
     "Selected": "FALSE"
@@ -1074,7 +1074,7 @@
     "Tau2(base model)": "0.00827719141313309",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0223269338332104",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4476505728202",
     "AICcDiff": "-8.99196983539241e-09",
     "Selected": "FALSE"
@@ -1086,7 +1086,7 @@
     "Tau2(base model)": "0.0222557733000792",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0550445459166693",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.0124559178305",
     "AICcDiff": "-5.867395458381e-10",
     "Selected": "FALSE"
@@ -1098,7 +1098,7 @@
     "Tau2(base model)": "0.0105621288748837",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0752417090013242",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3141178660862",
     "AICcDiff": "-1.89498905456276e-09",
     "Selected": "FALSE"
@@ -1122,7 +1122,7 @@
     "Tau2(base model)": "0.00458783008014316",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.350734044081821",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.6383551094724",
     "AICcDiff": "-5.12240703187672e-08",
     "Selected": "FALSE"
@@ -1134,7 +1134,7 @@
     "Tau2(base model)": "0.0147906857739384",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.488829804592161",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.9473317397165",
     "AICcDiff": "-5.16929787863774e-09",
     "Selected": "FALSE"
@@ -1146,7 +1146,7 @@
     "Tau2(base model)": "0.0043903598638732",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0104253062605734",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3942980403189",
     "AICcDiff": "-1.17863816484487e-06",
     "Selected": "FALSE"
@@ -1158,7 +1158,7 @@
     "Tau2(base model)": "0.00290096826992471",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00485436304148638",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.6660298779924",
     "AICcDiff": "-4.25451496255391e-09",
     "Selected": "FALSE"
@@ -1170,7 +1170,7 @@
     "Tau2(base model)": "0.0184141960327583",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.73976173071805",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.8758191852873",
     "AICcDiff": "-6.50857145956252e-12",
     "Selected": "FALSE"
@@ -1182,7 +1182,7 @@
     "Tau2(base model)": "0.0234972123525962",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.279012455632997",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3893185926004",
     "AICcDiff": "-3.10684811211104e-12",
     "Selected": "FALSE"
@@ -1194,7 +1194,7 @@
     "Tau2(base model)": "0.0113748900922562",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.201318851949571",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3448069901078",
     "AICcDiff": "-2.79431588978696e-10",
     "Selected": "FALSE"
@@ -1206,7 +1206,7 @@
     "Tau2(base model)": "0.0190198372526256",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.346304113041393",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3319898511906",
     "AICcDiff": "-2.37282549164775e-09",
     "Selected": "FALSE"
@@ -1218,7 +1218,7 @@
     "Tau2(base model)": "1.60475523232164e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00306385922530913",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.6468311808284",
     "AICcDiff": "-0.0001550443006888",
     "Selected": "FALSE"
@@ -1230,7 +1230,7 @@
     "Tau2(base model)": "0.0134089802839588",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.712199220106713",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3431916749461",
     "AICcDiff": "-6.24929441528366e-10",
     "Selected": "FALSE"
@@ -1242,7 +1242,7 @@
     "Tau2(base model)": "2.54114904791169e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00427273200459088",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.1347727986084",
     "AICcDiff": "-0.00069584049325222",
     "Selected": "FALSE"
@@ -1254,7 +1254,7 @@
     "Tau2(base model)": "0.00567129699185841",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.096533736982848",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.8499123801525",
     "AICcDiff": "-3.04449798704809e-11",
     "Selected": "FALSE"
@@ -1278,7 +1278,7 @@
     "Tau2(base model)": "0.0527179965473477",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.732455512384412",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.9851667191907",
     "AICcDiff": "-6.37436770034583e-10",
     "Selected": "FALSE"
@@ -1290,7 +1290,7 @@
     "Tau2(base model)": "0.00733931588638749",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.146114040537699",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.7239612046041",
     "AICcDiff": "-2.12644124530925e-10",
     "Selected": "FALSE"
@@ -1302,7 +1302,7 @@
     "Tau2(base model)": "0.0242328075992822",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.919346663056584",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.640925247286",
     "AICcDiff": "-1.3971046541883e-11",
     "Selected": "FALSE"
@@ -1314,7 +1314,7 @@
     "Tau2(base model)": "0.0207419463250376",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.284368890991261",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3582638855711",
     "AICcDiff": "-1.77635683940025e-15",
     "Selected": "FALSE"
@@ -1326,7 +1326,7 @@
     "Tau2(base model)": "0.0128400235367057",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.161748131697621",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3626012174661",
     "AICcDiff": "-4.76962469520004e-10",
     "Selected": "FALSE"
@@ -1338,7 +1338,7 @@
     "Tau2(base model)": "0.00438973207026597",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.056901823418491",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3009386830814",
     "AICcDiff": "-1.68665557964687e-07",
     "Selected": "FALSE"
@@ -1350,7 +1350,7 @@
     "Tau2(base model)": "0.0348579512432306",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.538439923254727",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.21145295643",
     "AICcDiff": "-5.94102544937414e-11",
     "Selected": "FALSE"
@@ -1362,7 +1362,7 @@
     "Tau2(base model)": "0.0139209453127197",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.766447812050082",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.6411146631853",
     "AICcDiff": "-7.831312487383e-09",
     "Selected": "FALSE"
@@ -1374,7 +1374,7 @@
     "Tau2(base model)": "0.0273150963904827",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.592045988530809",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.0551970866521",
     "AICcDiff": "-1.60454760589346e-10",
     "Selected": "FALSE"
@@ -1410,7 +1410,7 @@
     "Tau2(base model)": "0.00363503445808336",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0070898870685593",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.7480463746298",
     "AICcDiff": "-4.38634941701821e-08",
     "Selected": "FALSE"
@@ -1434,7 +1434,7 @@
     "Tau2(base model)": "0.0180875526709324",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.11517543086186",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3891521519501",
     "AICcDiff": "-3.79650089143979e-10",
     "Selected": "FALSE"
@@ -1446,7 +1446,7 @@
     "Tau2(base model)": "3.35705653239226e-07",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0073571458160559",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.0853067490889",
     "AICcDiff": "-4.1117015156189e-05",
     "Selected": "FALSE"
@@ -1458,7 +1458,7 @@
     "Tau2(base model)": "0.000253420152216146",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000464112158092179",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.602413956956",
     "AICcDiff": "-5.30338830628807e-08",
     "Selected": "TRUE"
@@ -1470,7 +1470,7 @@
     "Tau2(base model)": "2.42199081623935e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000197752414804317",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.119887152876",
     "AICcDiff": "-1.16033583221764e-05",
     "Selected": "TRUE"
@@ -1494,7 +1494,7 @@
     "Tau2(base model)": "0.0497650990253075",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.691708182911343",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.9284395247537",
     "AICcDiff": "-4.08917344429938e-12",
     "Selected": "FALSE"
@@ -1506,7 +1506,7 @@
     "Tau2(base model)": "0.0134849997221716",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.897845064171053",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2706908134185",
     "AICcDiff": "-5.25801624462474e-13",
     "Selected": "FALSE"
@@ -1518,7 +1518,7 @@
     "Tau2(base model)": "0.0386065844844227",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.250056499184853",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.4820436515297",
     "AICcDiff": "-8.61177795741241e-12",
     "Selected": "FALSE"
@@ -1530,7 +1530,7 @@
     "Tau2(base model)": "0.0157652824970089",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.849659038465655",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.6741836295946",
     "AICcDiff": "-3.21520587931445e-13",
     "Selected": "FALSE"
@@ -1542,7 +1542,7 @@
     "Tau2(base model)": "0.017212960629523",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.338966901699562",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4491417167501",
     "AICcDiff": "-1.06081792239365e-08",
     "Selected": "FALSE"
@@ -1554,7 +1554,7 @@
     "Tau2(base model)": "0.00931147253122214",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.349367668397011",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.1047008536129",
     "AICcDiff": "-1.65624669534736e-09",
     "Selected": "FALSE"
@@ -1566,7 +1566,7 @@
     "Tau2(base model)": "5.24212112429725e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00139780452929762",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "9.38819794518491",
     "AICcDiff": "-0.00239784755991579",
     "Selected": "FALSE"
@@ -1590,7 +1590,7 @@
     "Tau2(base model)": "0",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000202019480272853",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.5957012581338",
     "AICcDiff": "-2.5008314713304e-05",
     "Selected": "FALSE"
@@ -1602,7 +1602,7 @@
     "Tau2(base model)": "0.0244487330943296",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.898736616021483",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5000503044792",
     "AICcDiff": "-5.24025267623074e-13",
     "Selected": "FALSE"
@@ -1638,7 +1638,7 @@
     "Tau2(base model)": "8.48889618897252e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00156063717442225",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.0130519621238",
     "AICcDiff": "-0.000960187159682491",
     "Selected": "FALSE"
@@ -1650,7 +1650,7 @@
     "Tau2(base model)": "0.0241046386639023",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.713232615457299",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6056658034399",
     "AICcDiff": "-1.1690204360093e-11",
     "Selected": "FALSE"
@@ -1662,7 +1662,7 @@
     "Tau2(base model)": "0.0200833354439995",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.536994241654209",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.30447239428",
     "AICcDiff": "-1.58825841367616e-10",
     "Selected": "FALSE"
@@ -1674,7 +1674,7 @@
     "Tau2(base model)": "0.0222481514535387",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.837832302320577",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5167687278803",
     "AICcDiff": "-4.41087166791476e-11",
     "Selected": "FALSE"
@@ -1686,7 +1686,7 @@
     "Tau2(base model)": "0.0111917319121144",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.576526257306663",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.1945826206045",
     "AICcDiff": "-1.89843518683119e-09",
     "Selected": "FALSE"
@@ -1698,7 +1698,7 @@
     "Tau2(base model)": "0.0213196140203237",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.982404427970516",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4187001735151",
     "AICcDiff": "-3.02364355775353e-10",
     "Selected": "FALSE"
@@ -1710,7 +1710,7 @@
     "Tau2(base model)": "0.03151032621251",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.954234774844315",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.9942004385803",
     "AICcDiff": "-7.69517782828189e-12",
     "Selected": "FALSE"
@@ -1722,7 +1722,7 @@
     "Tau2(base model)": "0.0318240681115866",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.80485746338811",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.1377655749921",
     "AICcDiff": "-2.66453525910038e-13",
     "Selected": "FALSE"
@@ -1734,7 +1734,7 @@
     "Tau2(base model)": "0.00849581693963217",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.231391079325807",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.1261709130015",
     "AICcDiff": "-1.39969404955309e-08",
     "Selected": "FALSE"
@@ -1746,7 +1746,7 @@
     "Tau2(base model)": "0.028940257375754",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0944475199428783",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.8704016108824",
     "AICcDiff": "-3.14415160573844e-12",
     "Selected": "FALSE"
@@ -1758,7 +1758,7 @@
     "Tau2(base model)": "0.0399979350662574",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.222766585790261",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.8066694588316",
     "AICcDiff": "-3.99680288865056e-13",
     "Selected": "FALSE"
@@ -1770,7 +1770,7 @@
     "Tau2(base model)": "0.0153565834225525",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.99182819561326",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.5921400567782",
     "AICcDiff": "-1.5804246800144e-11",
     "Selected": "FALSE"
@@ -1782,7 +1782,7 @@
     "Tau2(base model)": "0.00186532821247133",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00932116210615048",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.2626100671158",
     "AICcDiff": "-1.70731873083696e-09",
     "Selected": "FALSE"
@@ -1794,7 +1794,7 @@
     "Tau2(base model)": "0.00904009146781603",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.081688502605775",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.0408826830606",
     "AICcDiff": "-2.56026311262758e-11",
     "Selected": "FALSE"
@@ -1806,7 +1806,7 @@
     "Tau2(base model)": "3.62635122520274e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00332151322719462",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.0496500510969",
     "AICcDiff": "-0.00126874993651249",
     "Selected": "FALSE"
@@ -1818,7 +1818,7 @@
     "Tau2(base model)": "0.00383797299171553",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0323684856228712",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.9695797621024",
     "AICcDiff": "-4.1522239868641e-08",
     "Selected": "FALSE"
@@ -1830,7 +1830,7 @@
     "Tau2(base model)": "0.000113203528224286",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00478516335649077",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.1075196192025",
     "AICcDiff": "-4.71261977885717e-05",
     "Selected": "FALSE"
@@ -1842,7 +1842,7 @@
     "Tau2(base model)": "0.0584953716075487",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.974653768033764",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.3713322921905",
     "AICcDiff": "-3.5527136788005e-15",
     "Selected": "FALSE"
@@ -1854,7 +1854,7 @@
     "Tau2(base model)": "0.0117123927201011",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.663147748323301",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4694362599444",
     "AICcDiff": "-1.23197523294039e-08",
     "Selected": "FALSE"
@@ -1878,7 +1878,7 @@
     "Tau2(base model)": "0.0146786385601463",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.527985741215276",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.5166949700456",
     "AICcDiff": "-1.43975142918862e-09",
     "Selected": "FALSE"
@@ -1890,7 +1890,7 @@
     "Tau2(base model)": "0.0256544986911701",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.533817010423441",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.7001800434243",
     "AICcDiff": "-8.98790375458702e-10",
     "Selected": "FALSE"
@@ -1902,7 +1902,7 @@
     "Tau2(base model)": "0.030786308931732",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.368266585386336",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.4589379047957",
     "AICcDiff": "-5.19085219252702e-10",
     "Selected": "FALSE"
@@ -1914,7 +1914,7 @@
     "Tau2(base model)": "0.00483867345999735",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0539391577704022",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.0462045015332",
     "AICcDiff": "-2.1493917756743e-13",
     "Selected": "FALSE"
@@ -1926,7 +1926,7 @@
     "Tau2(base model)": "0.063333351366506",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.402281829640217",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.5889458888637",
     "AICcDiff": "-1.08997255665599e-11",
     "Selected": "FALSE"
@@ -1938,7 +1938,7 @@
     "Tau2(base model)": "0.0304120373645933",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.10019938822896",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.0167482736956",
     "AICcDiff": "-4.9311665861751e-12",
     "Selected": "FALSE"
@@ -1950,7 +1950,7 @@
     "Tau2(base model)": "0.0202455453417332",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.369983355662693",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.1827372904646",
     "AICcDiff": "-9.21414056165304e-11",
     "Selected": "FALSE"
@@ -1962,7 +1962,7 @@
     "Tau2(base model)": "0.0553063678740083",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.122077781163599",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.1132179946787",
     "AICcDiff": "-4.18118872858031e-11",
     "Selected": "FALSE"
@@ -1974,7 +1974,7 @@
     "Tau2(base model)": "0.0042419705861502",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.144083906071865",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.9894459544622",
     "AICcDiff": "-5.53671242187193e-08",
     "Selected": "FALSE"
@@ -1998,7 +1998,7 @@
     "Tau2(base model)": "0.0287248107148632",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.702480825683563",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.1133332303312",
     "AICcDiff": "-6.31601437817153e-11",
     "Selected": "FALSE"
@@ -2010,7 +2010,7 @@
     "Tau2(base model)": "0.0129915349734629",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0750442584016333",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0320862869936",
     "AICcDiff": "-1.11647935341352e-08",
     "Selected": "FALSE"
@@ -2022,7 +2022,7 @@
     "Tau2(base model)": "0.00373966282286817",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00777704682555869",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.6307794650962",
     "AICcDiff": "-5.45303446841672e-08",
     "Selected": "FALSE"
@@ -2034,7 +2034,7 @@
     "Tau2(base model)": "0.0106207512115355",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.174812222327093",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2905737984582",
     "AICcDiff": "-4.2774672692758e-12",
     "Selected": "FALSE"
@@ -2058,7 +2058,7 @@
     "Tau2(base model)": "0.0378466736299668",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.707883656567846",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.6564231602798",
     "AICcDiff": "-1.86517468137026e-13",
     "Selected": "FALSE"
@@ -2070,7 +2070,7 @@
     "Tau2(base model)": "0.0294421280028016",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.143504047999982",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.9851486957916",
     "AICcDiff": "-1.95043980966148e-12",
     "Selected": "FALSE"
@@ -2082,7 +2082,7 @@
     "Tau2(base model)": "0.0150322637192017",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.638529955403988",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.8832890314894",
     "AICcDiff": "-6.32738306194369e-09",
     "Selected": "FALSE"
@@ -2094,7 +2094,7 @@
     "Tau2(base model)": "0.018908293370291",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0775175603269598",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.2674558510878",
     "AICcDiff": "-1.08606457160931e-11",
     "Selected": "FALSE"
@@ -2106,7 +2106,7 @@
     "Tau2(base model)": "0.0214357749299598",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0511097700202216",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.3126719063523",
     "AICcDiff": "-8.17799161723087e-11",
     "Selected": "FALSE"
@@ -2130,7 +2130,7 @@
     "Tau2(base model)": "0.0264036551143586",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.612194215069516",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6071887055884",
     "AICcDiff": "-2.41762165842374e-12",
     "Selected": "FALSE"
@@ -2142,7 +2142,7 @@
     "Tau2(base model)": "0.000793838465316318",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0133614622839798",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.431207013186",
     "AICcDiff": "-1.68534128874853e-08",
     "Selected": "FALSE"
@@ -2154,7 +2154,7 @@
     "Tau2(base model)": "0.0276127075259345",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.500337761250363",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.9659718953342",
     "AICcDiff": "-4.41655600980084e-11",
     "Selected": "FALSE"
@@ -2166,7 +2166,7 @@
     "Tau2(base model)": "0.00289374220870958",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00558108297048732",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.8298427228019",
     "AICcDiff": "-9.95899007705248e-09",
     "Selected": "FALSE"
@@ -2178,7 +2178,7 @@
     "Tau2(base model)": "2.31883126836992e-07",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00441084002753867",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.7114491407686",
     "AICcDiff": "-8.40600113551915e-05",
     "Selected": "FALSE"
@@ -2190,7 +2190,7 @@
     "Tau2(base model)": "0.061948335978515",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.29709610810237",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.3065135623261",
     "AICcDiff": "-6.75015598972095e-13",
     "Selected": "FALSE"
@@ -2214,7 +2214,7 @@
     "Tau2(base model)": "0.0898659388386669",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.526961021982495",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.2437435185778",
     "AICcDiff": "-3.05533376376843e-13",
     "Selected": "FALSE"
@@ -2226,7 +2226,7 @@
     "Tau2(base model)": "0.017059899938367",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.693435200714983",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.9315713027403",
     "AICcDiff": "-5.4006044081234e-10",
     "Selected": "FALSE"
@@ -2250,7 +2250,7 @@
     "Tau2(base model)": "0.0134867301837913",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0789493172435761",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5496174612269",
     "AICcDiff": "-1.51201859921457e-08",
     "Selected": "FALSE"
@@ -2262,7 +2262,7 @@
     "Tau2(base model)": "7.44026073451249e-07",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00563804821840797",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.4608627515415",
     "AICcDiff": "-3.72499007337268e-05",
     "Selected": "FALSE"
@@ -2274,7 +2274,7 @@
     "Tau2(base model)": "0.00690475241693963",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.504135968358746",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.0012459335528",
     "AICcDiff": "-1.00216013265708e-09",
     "Selected": "FALSE"
@@ -2286,7 +2286,7 @@
     "Tau2(base model)": "0.0111405959556971",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.397359171818559",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.8624950284413",
     "AICcDiff": "-1.85332638125146e-10",
     "Selected": "FALSE"
@@ -2298,7 +2298,7 @@
     "Tau2(base model)": "0.00690475241693963",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.504135968358746",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.0012459335528",
     "AICcDiff": "-1.00216013265708e-09",
     "Selected": "FALSE"
@@ -2310,7 +2310,7 @@
     "Tau2(base model)": "0.0194460547273645",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.338406754546175",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.9323343181647",
     "AICcDiff": "-5.79163383918058e-11",
     "Selected": "FALSE"
@@ -2322,7 +2322,7 @@
     "Tau2(base model)": "0.0109646753838827",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.403820955595745",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.9752521898265",
     "AICcDiff": "-5.54223333892878e-13",
     "Selected": "FALSE"
@@ -2334,7 +2334,7 @@
     "Tau2(base model)": "0.00238628331576091",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0664038905520396",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.0758667795973",
     "AICcDiff": "-1.96043227873588e-07",
     "Selected": "FALSE"
@@ -2346,7 +2346,7 @@
     "Tau2(base model)": "0.0146605627190794",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.849033071162815",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.7002450317825",
     "AICcDiff": "-9.57811607804615e-12",
     "Selected": "FALSE"
@@ -2358,7 +2358,7 @@
     "Tau2(base model)": "0.00364588921590787",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0651992691601129",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.9070965423254",
     "AICcDiff": "-4.68736160996741e-09",
     "Selected": "FALSE"
@@ -2370,7 +2370,7 @@
     "Tau2(base model)": "0.00870420844464395",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00150667220377175",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.7795462266969",
     "AICcDiff": "-6.24934770598884e-09",
     "Selected": "FALSE"
@@ -2382,7 +2382,7 @@
     "Tau2(base model)": "0.0280304885999969",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.115743667087856",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.8479520321142",
     "AICcDiff": "-6.40092423509486e-11",
     "Selected": "FALSE"
@@ -2394,7 +2394,7 @@
     "Tau2(base model)": "0.0285573722797245",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.649232424357476",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.0336169784351",
     "AICcDiff": "-5.49604806110437e-12",
     "Selected": "FALSE"
@@ -2406,7 +2406,7 @@
     "Tau2(base model)": "0.00222371971772967",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0178394670138748",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.4991855654703",
     "AICcDiff": "-3.7112620532298e-08",
     "Selected": "FALSE"
@@ -2418,7 +2418,7 @@
     "Tau2(base model)": "0.00427746175288224",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.135905834099931",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.3219802067204",
     "AICcDiff": "-5.48364553765168e-09",
     "Selected": "FALSE"
@@ -2430,7 +2430,7 @@
     "Tau2(base model)": "0.00300050257020976",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0714274154639767",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.9891855003656",
     "AICcDiff": "-3.8429703863585e-11",
     "Selected": "FALSE"
@@ -2442,7 +2442,7 @@
     "Tau2(base model)": "0.0246125736742132",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.235488973186499",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.8636950099977",
     "AICcDiff": "-1.50534162912663e-09",
     "Selected": "FALSE"
@@ -2454,7 +2454,7 @@
     "Tau2(base model)": "0.0204131148416492",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.583037814275796",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3509725520754",
     "AICcDiff": "-1.03923980532272e-10",
     "Selected": "FALSE"
@@ -2466,7 +2466,7 @@
     "Tau2(base model)": "5.48470589782389e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00106207886856578",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.1810099857342",
     "AICcDiff": "-0.000763231875019699",
     "Selected": "FALSE"
@@ -2490,7 +2490,7 @@
     "Tau2(base model)": "0.0150580195284503",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.178087241156431",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.651147763958",
     "AICcDiff": "-9.99275329149896e-10",
     "Selected": "FALSE"
@@ -2502,7 +2502,7 @@
     "Tau2(base model)": "0.0240747586068502",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.291451707047347",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5019469287132",
     "AICcDiff": "-1.25055521493778e-12",
     "Selected": "FALSE"
@@ -2514,7 +2514,7 @@
     "Tau2(base model)": "0.0237130240686475",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.97527082701204",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4227839501043",
     "AICcDiff": "-2.52242671194836e-13",
     "Selected": "FALSE"
@@ -2526,7 +2526,7 @@
     "Tau2(base model)": "0.0046432399630213",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0683888206593946",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.7541823316767",
     "AICcDiff": "-7.0954225783737e-07",
     "Selected": "FALSE"
@@ -2550,7 +2550,7 @@
     "Tau2(base model)": "0.00228371551262867",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00538690352961167",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.801651468877",
     "AICcDiff": "-1.16504851987997e-07",
     "Selected": "FALSE"
@@ -2562,7 +2562,7 @@
     "Tau2(base model)": "0.00991295905530828",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.136105085239286",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.1662947672735",
     "AICcDiff": "-1.42434330996366e-09",
     "Selected": "FALSE"
@@ -2574,7 +2574,7 @@
     "Tau2(base model)": "0.0242674848545262",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.886049838045533",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4531383504434",
     "AICcDiff": "-1.50386370023625e-11",
     "Selected": "FALSE"
@@ -2586,7 +2586,7 @@
     "Tau2(base model)": "0.00640125641867651",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.992818832358931",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.9648677389847",
     "AICcDiff": "-2.23722587122666e-08",
     "Selected": "FALSE"
@@ -2598,7 +2598,7 @@
     "Tau2(base model)": "0.00131654626846507",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0240017826440176",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.8850058579468",
     "AICcDiff": "-8.43408608197649e-06",
     "Selected": "FALSE"
@@ -2610,7 +2610,7 @@
     "Tau2(base model)": "0.077448903725587",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.777542126060638",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.921705141012",
     "AICcDiff": "-2.1387336346379e-12",
     "Selected": "FALSE"
@@ -2622,7 +2622,7 @@
     "Tau2(base model)": "0.445835433012941",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.723206976644675",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "20.1637195812284",
     "AICcDiff": "-3.5527136788005e-15",
     "Selected": "FALSE"
@@ -2634,7 +2634,7 @@
     "Tau2(base model)": "0.0013584217864204",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0256203655861618",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.6761777408008",
     "AICcDiff": "-5.52830439204399e-08",
     "Selected": "FALSE"
@@ -2658,7 +2658,7 @@
     "Tau2(base model)": "0.019771257240935",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.912816138453487",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.8913301245615",
     "AICcDiff": "-8.38600300312464e-11",
     "Selected": "FALSE"
@@ -2670,7 +2670,7 @@
     "Tau2(base model)": "0.0182794321329358",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00645972184535321",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.145558603062",
     "AICcDiff": "-1.118376502518e-10",
     "Selected": "FALSE"
@@ -2682,7 +2682,7 @@
     "Tau2(base model)": "0.0433403249577336",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.395372636442808",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.6433085478783",
     "AICcDiff": "-1.50350842886837e-11",
     "Selected": "FALSE"
@@ -2694,7 +2694,7 @@
     "Tau2(base model)": "0.00557601952939686",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00666545182011192",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.7692178347699",
     "AICcDiff": "-6.1389329175654e-09",
     "Selected": "FALSE"
@@ -2706,7 +2706,7 @@
     "Tau2(base model)": "5.7394118304294e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.001720888992022",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.8493673120349",
     "AICcDiff": "-0.00262748834086857",
     "Selected": "FALSE"
@@ -2718,7 +2718,7 @@
     "Tau2(base model)": "0.118953699680264",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.125015405756716",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.7099531213992",
     "AICcDiff": "-1.62714286489063e-12",
     "Selected": "FALSE"
@@ -2730,7 +2730,7 @@
     "Tau2(base model)": "0.00554713508847298",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0656164529973747",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.4753020245525",
     "AICcDiff": "-3.18157589163093e-09",
     "Selected": "FALSE"
@@ -2742,7 +2742,7 @@
     "Tau2(base model)": "0.077410002891037",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.939694268974644",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.9337665772464",
     "AICcDiff": "-2.61834998127597e-11",
     "Selected": "FALSE"
@@ -2754,7 +2754,7 @@
     "Tau2(base model)": "0.0104278363381525",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.158630873840506",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3824775008396",
     "AICcDiff": "-5.09459141539992e-12",
     "Selected": "FALSE"
@@ -2778,7 +2778,7 @@
     "Tau2(base model)": "0.010217912312576",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.167126272771386",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.0416967611031",
     "AICcDiff": "-9.30633348161791e-12",
     "Selected": "FALSE"
@@ -2790,7 +2790,7 @@
     "Tau2(base model)": "0.049154342355168",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.722020800599216",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.9314335173125",
     "AICcDiff": "-6.34159391665889e-13",
     "Selected": "FALSE"
@@ -2802,7 +2802,7 @@
     "Tau2(base model)": "0.000621419776477282",
     "Selected model name": "base_model (simple RE)",
     "P-value": "9.57479176585488e-05",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2852494476037",
     "AICcDiff": "-2.38550317277486e-08",
     "Selected": "TRUE"
@@ -2814,7 +2814,7 @@
     "Tau2(base model)": "0.00181047904406545",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0101317735402476",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.2607903766026",
     "AICcDiff": "-7.123190925995e-11",
     "Selected": "FALSE"
@@ -2826,7 +2826,7 @@
     "Tau2(base model)": "0.0434897334044498",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.50090269078313",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.7309665320553",
     "AICcDiff": "-6.46593889541691e-13",
     "Selected": "FALSE"
@@ -2838,7 +2838,7 @@
     "Tau2(base model)": "0.0404515774044486",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.350339681746875",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.5432119968135",
     "AICcDiff": "-1.76711978383537e-11",
     "Selected": "FALSE"
@@ -2850,7 +2850,7 @@
     "Tau2(base model)": "0.0306098907071636",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.102825998926964",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.1189701548688",
     "AICcDiff": "-9.44311295825173e-12",
     "Selected": "FALSE"
@@ -2862,7 +2862,7 @@
     "Tau2(base model)": "0.016651314159169",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.166356115093298",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3703903341827",
     "AICcDiff": "-5.27846211184624e-10",
     "Selected": "FALSE"
@@ -2874,7 +2874,7 @@
     "Tau2(base model)": "0.00510504305159435",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.138939367352296",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.9763164381566",
     "AICcDiff": "-5.17316500747711e-09",
     "Selected": "FALSE"
@@ -2886,7 +2886,7 @@
     "Tau2(base model)": "0.0133608190212392",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.543583938986241",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2974866609752",
     "AICcDiff": "-5.42117462032365e-10",
     "Selected": "FALSE"
@@ -2910,7 +2910,7 @@
     "Tau2(base model)": "0.0245702003170974",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.634335117107243",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5248014347144",
     "AICcDiff": "-1.24028787240604e-09",
     "Selected": "FALSE"
@@ -2922,7 +2922,7 @@
     "Tau2(base model)": "0.0151012593631145",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.256569549174085",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.7660393723019",
     "AICcDiff": "-1.34033228960106e-10",
     "Selected": "FALSE"
@@ -2934,7 +2934,7 @@
     "Tau2(base model)": "0.016597829070118",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.748931367692744",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.8809918635258",
     "AICcDiff": "-3.33848504396883e-10",
     "Selected": "FALSE"
@@ -2946,7 +2946,7 @@
     "Tau2(base model)": "0.0382443754620713",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.119766117796286",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.3699368370051",
     "AICcDiff": "-1.58451030074502e-11",
     "Selected": "FALSE"
@@ -2958,7 +2958,7 @@
     "Tau2(base model)": "0.00281645788320753",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00342408783245132",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.8526748227284",
     "AICcDiff": "-9.54377910034054e-09",
     "Selected": "FALSE"
@@ -2970,7 +2970,7 @@
     "Tau2(base model)": "0.0371004888035372",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.113113635004264",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.6102142234229",
     "AICcDiff": "-5.03952435337851e-11",
     "Selected": "FALSE"
@@ -2982,7 +2982,7 @@
     "Tau2(base model)": "0.00685399799486535",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.148196591809453",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.1409845410868",
     "AICcDiff": "-2.99314351082103e-10",
     "Selected": "FALSE"
@@ -2994,7 +2994,7 @@
     "Tau2(base model)": "0.00865633667407073",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.23080595103185",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.0093640619254",
     "AICcDiff": "-3.0456437372095e-09",
     "Selected": "FALSE"
@@ -3006,7 +3006,7 @@
     "Tau2(base model)": "0.00697476146633647",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.235102533391274",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.4747096044689",
     "AICcDiff": "-2.75850453590465e-11",
     "Selected": "FALSE"
@@ -3018,7 +3018,7 @@
     "Tau2(base model)": "0.00736765859374223",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0365338519915297",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.0403155003937",
     "AICcDiff": "-4.08194900103354e-09",
     "Selected": "FALSE"
@@ -3030,7 +3030,7 @@
     "Tau2(base model)": "0.00489225534726187",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.127604030232834",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.9205445513553",
     "AICcDiff": "-6.00092420199871e-08",
     "Selected": "FALSE"
@@ -3042,7 +3042,7 @@
     "Tau2(base model)": "0.0190890437827691",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.829573193321784",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.1981083103129",
     "AICcDiff": "-3.37186278898116e-10",
     "Selected": "FALSE"
@@ -3054,7 +3054,7 @@
     "Tau2(base model)": "0.00387217933665944",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0746339333844097",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.4572920225067",
     "AICcDiff": "-6.75484912449065e-08",
     "Selected": "FALSE"
@@ -3066,7 +3066,7 @@
     "Tau2(base model)": "0.0101944061234807",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0369954265709885",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.324554020788",
     "AICcDiff": "-2.54582133152326e-10",
     "Selected": "FALSE"
@@ -3078,7 +3078,7 @@
     "Tau2(base model)": "0.00864703649378067",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.025104909520609",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4699669615744",
     "AICcDiff": "-8.69068372821857e-10",
     "Selected": "FALSE"
@@ -3102,7 +3102,7 @@
     "Tau2(base model)": "0.00308846922929684",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0227803211126201",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.7547664159816",
     "AICcDiff": "-2.49859700929278e-07",
     "Selected": "FALSE"
@@ -3126,7 +3126,7 @@
     "Tau2(base model)": "0.00817403902706842",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.90479240930514",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.4563620912345",
     "AICcDiff": "-2.73816471718646e-08",
     "Selected": "FALSE"
@@ -3138,7 +3138,7 @@
     "Tau2(base model)": "0.0101175055131733",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.094914643616367",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.9442012647399",
     "AICcDiff": "-8.7599261178184e-11",
     "Selected": "FALSE"
@@ -3150,7 +3150,7 @@
     "Tau2(base model)": "0.00765006152427651",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0373285915945858",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0867327473814",
     "AICcDiff": "-1.81281656352894e-08",
     "Selected": "FALSE"
@@ -3162,7 +3162,7 @@
     "Tau2(base model)": "0.371361876649421",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.478195808016336",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "20.353413865318",
     "AICcDiff": "-3.66640051652212e-12",
     "Selected": "FALSE"
@@ -3174,7 +3174,7 @@
     "Tau2(base model)": "0.00790269690328512",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.193707392360677",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5779434471147",
     "AICcDiff": "-5.12324405121944e-10",
     "Selected": "FALSE"
@@ -3186,7 +3186,7 @@
     "Tau2(base model)": "0.0172800464543473",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.755459651385395",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.8400615018359",
     "AICcDiff": "-3.92574861507455e-13",
     "Selected": "FALSE"
@@ -3198,7 +3198,7 @@
     "Tau2(base model)": "0.0308490023319837",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.272486500398439",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.9931187623897",
     "AICcDiff": "-3.30189209307719e-10",
     "Selected": "FALSE"
@@ -3210,7 +3210,7 @@
     "Tau2(base model)": "0.0206751783411828",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.151415939718864",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.2808709506578",
     "AICcDiff": "-4.19202450530065e-11",
     "Selected": "FALSE"
@@ -3234,7 +3234,7 @@
     "Tau2(base model)": "0.00184698005269672",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00333971900711445",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5778827121676",
     "AICcDiff": "-1.12976650257224e-08",
     "Selected": "FALSE"
@@ -3246,7 +3246,7 @@
     "Tau2(base model)": "0.0214143230367393",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.961015118568734",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3556966537401",
     "AICcDiff": "-4.8046899792098e-11",
     "Selected": "FALSE"
@@ -3258,7 +3258,7 @@
     "Tau2(base model)": "0.0398347935876429",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.439781483370079",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.14080671587",
     "AICcDiff": "-1.24913412946626e-11",
     "Selected": "FALSE"
@@ -3270,7 +3270,7 @@
     "Tau2(base model)": "0.0225815959034532",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.9191427405051",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3035463228156",
     "AICcDiff": "-1.21147536447097e-11",
     "Selected": "FALSE"
@@ -3282,7 +3282,7 @@
     "Tau2(base model)": "0.0437416193444398",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.948709313771592",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.6605543312715",
     "AICcDiff": "-1.01891828307998e-11",
     "Selected": "FALSE"
@@ -3294,7 +3294,7 @@
     "Tau2(base model)": "0.00904417534858771",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0222484143903898",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2335873451003",
     "AICcDiff": "-1.58070747602324e-08",
     "Selected": "FALSE"
@@ -3306,7 +3306,7 @@
     "Tau2(base model)": "0.0273003362155706",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.180798891769136",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6423449093761",
     "AICcDiff": "-3.83870712994394e-12",
     "Selected": "FALSE"
@@ -3318,7 +3318,7 @@
     "Tau2(base model)": "0.0201650269809261",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.871635181869321",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.1794931310287",
     "AICcDiff": "-8.81939854480152e-10",
     "Selected": "FALSE"
@@ -3342,7 +3342,7 @@
     "Tau2(base model)": "0.0112619093809282",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0955896483430873",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4036844437473",
     "AICcDiff": "-1.03711705889964e-09",
     "Selected": "FALSE"
@@ -3354,7 +3354,7 @@
     "Tau2(base model)": "0.00651082522616265",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.739235943805064",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.0054688956945",
     "AICcDiff": "-4.48461179303195e-09",
     "Selected": "FALSE"
@@ -3366,7 +3366,7 @@
     "Tau2(base model)": "0.00452530699648115",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.658690109702794",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.191401516595",
     "AICcDiff": "-9.97673055280757e-11",
     "Selected": "FALSE"
@@ -3378,7 +3378,7 @@
     "Tau2(base model)": "7.10308280444171e-07",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00308612280663996",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.495498061995",
     "AICcDiff": "-3.81665953828048e-05",
     "Selected": "FALSE"
@@ -3390,7 +3390,7 @@
     "Tau2(base model)": "0.0182385790063267",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.152525988144551",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0672073442966",
     "AICcDiff": "-3.02833313980955e-11",
     "Selected": "FALSE"
@@ -3402,7 +3402,7 @@
     "Tau2(base model)": "0.0474820928086491",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.77867156215674",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.9968093116593",
     "AICcDiff": "-4.24320134584377e-10",
     "Selected": "FALSE"
@@ -3414,7 +3414,7 @@
     "Tau2(base model)": "0.0204503889170342",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.223074418317487",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.8785430035279",
     "AICcDiff": "-3.48710749165093e-09",
     "Selected": "FALSE"
@@ -3426,7 +3426,7 @@
     "Tau2(base model)": "0.0310881943835441",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.209775974663536",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.1658518459809",
     "AICcDiff": "-6.86739554112137e-12",
     "Selected": "FALSE"
@@ -3438,7 +3438,7 @@
     "Tau2(base model)": "0.0123496804972128",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.595634354848873",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3504257503965",
     "AICcDiff": "-1.16057918830847e-09",
     "Selected": "FALSE"
@@ -3450,7 +3450,7 @@
     "Tau2(base model)": "0.0261585128438581",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.862196739010586",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.9578742933278",
     "AICcDiff": "-4.42079262086281e-09",
     "Selected": "FALSE"
@@ -3462,7 +3462,7 @@
     "Tau2(base model)": "0.0161509606979806",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0816048811684885",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.9513143951216",
     "AICcDiff": "-8.16973688699818e-09",
     "Selected": "FALSE"
@@ -3474,7 +3474,7 @@
     "Tau2(base model)": "0.0243797968547947",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.260875060932362",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.9896819896964",
     "AICcDiff": "-1.29624311284715e-10",
     "Selected": "FALSE"
@@ -3486,7 +3486,7 @@
     "Tau2(base model)": "0.0108386936160443",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.582333559500658",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.0200790945009",
     "AICcDiff": "-1.69611524825086e-09",
     "Selected": "FALSE"
@@ -3498,7 +3498,7 @@
     "Tau2(base model)": "0.0476996498527773",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.748654877143208",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.8208467766505",
     "AICcDiff": "-1.27897692436818e-12",
     "Selected": "FALSE"
@@ -3510,7 +3510,7 @@
     "Tau2(base model)": "0.013684568954601",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.705517989042562",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.6696443135876",
     "AICcDiff": "-1.03163841913556e-08",
     "Selected": "FALSE"
@@ -3522,7 +3522,7 @@
     "Tau2(base model)": "4.37081339445e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00305686203311747",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.0569677637827",
     "AICcDiff": "-0.000649826947991983",
     "Selected": "FALSE"
@@ -3534,7 +3534,7 @@
     "Tau2(base model)": "0.0362423206223531",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.105648088055231",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.3433371321132",
     "AICcDiff": "-2.56363819062244e-11",
     "Selected": "FALSE"
@@ -3546,7 +3546,7 @@
     "Tau2(base model)": "0.0227213388573818",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.940630029581064",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3541959281077",
     "AICcDiff": "-1.76143544194929e-11",
     "Selected": "FALSE"
@@ -3558,7 +3558,7 @@
     "Tau2(base model)": "0.0173512592918609",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.449124000506976",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0344869347216",
     "AICcDiff": "-1.97763228015901e-09",
     "Selected": "FALSE"
@@ -3570,7 +3570,7 @@
     "Tau2(base model)": "0.0179761806067205",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.915894223595607",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0063416007572",
     "AICcDiff": "-1.58788537873988e-11",
     "Selected": "FALSE"
@@ -3582,7 +3582,7 @@
     "Tau2(base model)": "0.0178728545320852",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.686647381388332",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.9804847289494",
     "AICcDiff": "-7.03437308402499e-13",
     "Selected": "FALSE"
@@ -3594,7 +3594,7 @@
     "Tau2(base model)": "0.0131949698399299",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0640579852700167",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3104292354892",
     "AICcDiff": "-9.10225850248025e-09",
     "Selected": "FALSE"
@@ -3606,7 +3606,7 @@
     "Tau2(base model)": "0.0622809381062891",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.654470563114449",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.7907824442951",
     "AICcDiff": "-2.22041052211353e-10",
     "Selected": "FALSE"
@@ -3642,7 +3642,7 @@
     "Tau2(base model)": "0.0322219844982058",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.529657650689562",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.2717166689085",
     "AICcDiff": "-7.30290494743713e-10",
     "Selected": "FALSE"
@@ -3654,7 +3654,7 @@
     "Tau2(base model)": "0.00623826400405063",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0937698349704254",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4128777515863",
     "AICcDiff": "-5.57010437773897e-10",
     "Selected": "FALSE"
@@ -3666,7 +3666,7 @@
     "Tau2(base model)": "0.0402143692163353",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.755696913547129",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.4804212508258",
     "AICcDiff": "-5.3576698633151e-11",
     "Selected": "FALSE"
@@ -3678,7 +3678,7 @@
     "Tau2(base model)": "0.0478779882527613",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.919831974091483",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.1182575414799",
     "AICcDiff": "-7.32153893068244e-10",
     "Selected": "FALSE"
@@ -3690,7 +3690,7 @@
     "Tau2(base model)": "0.0104079060015796",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.106333320932819",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.946446925326",
     "AICcDiff": "-1.31127286806532e-09",
     "Selected": "FALSE"
@@ -3702,7 +3702,7 @@
     "Tau2(base model)": "0.0101274146464936",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.03377375415658",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.264850765918",
     "AICcDiff": "-9.2299501375237e-12",
     "Selected": "FALSE"
@@ -3714,7 +3714,7 @@
     "Tau2(base model)": "0.0499030760652902",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.936243336866129",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.8695813241301",
     "AICcDiff": "-3.02691205433803e-12",
     "Selected": "FALSE"
@@ -3726,7 +3726,7 @@
     "Tau2(base model)": "0.0282047604485942",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.620512145785545",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.1480953226793",
     "AICcDiff": "-2.53880472200763e-10",
     "Selected": "FALSE"
@@ -3738,7 +3738,7 @@
     "Tau2(base model)": "0.00440628515833749",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.016692899515512",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.8359018200679",
     "AICcDiff": "-7.90230103575595e-11",
     "Selected": "FALSE"
@@ -3750,7 +3750,7 @@
     "Tau2(base model)": "0.0251786787183683",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.849134831217435",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6302834853504",
     "AICcDiff": "-6.34289065715166e-10",
     "Selected": "FALSE"
@@ -3762,7 +3762,7 @@
     "Tau2(base model)": "0.0123860080562337",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0996398878720975",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.356983459134",
     "AICcDiff": "-1.77635683940025e-13",
     "Selected": "FALSE"
@@ -3774,7 +3774,7 @@
     "Tau2(base model)": "0.00305985651565161",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00192945369130177",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.6588969849381",
     "AICcDiff": "-4.64225280438768e-09",
     "Selected": "FALSE"
@@ -3786,7 +3786,7 @@
     "Tau2(base model)": "0.0282687001507786",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.77596979156174",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.777143395513",
     "AICcDiff": "-5.988809448354e-11",
     "Selected": "FALSE"
@@ -3798,7 +3798,7 @@
     "Tau2(base model)": "3.54057818470018e-07",
     "Selected model name": "base_model (simple RE)",
     "P-value": "7.91391754903574e-05",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.6310013398761",
     "AICcDiff": "-1.09727445956054e-05",
     "Selected": "TRUE"
@@ -3810,7 +3810,7 @@
     "Tau2(base model)": "0.00641939601513122",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0115973563206513",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.108412793652",
     "AICcDiff": "-6.12969763835736e-09",
     "Selected": "FALSE"
@@ -3822,7 +3822,7 @@
     "Tau2(base model)": "0.00723048275068666",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.981276877604977",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.1534382725142",
     "AICcDiff": "-1.4895107369739e-08",
     "Selected": "FALSE"
@@ -3834,7 +3834,7 @@
     "Tau2(base model)": "0.0215853382043471",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.224334294570278",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3519144723634",
     "AICcDiff": "-6.07428773946594e-10",
     "Selected": "FALSE"
@@ -3846,7 +3846,7 @@
     "Tau2(base model)": "0.00200663238791194",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00817515970260677",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.3092742339431",
     "AICcDiff": "-1.25222250346724e-08",
     "Selected": "FALSE"
@@ -3858,7 +3858,7 @@
     "Tau2(base model)": "5.41659708758646e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "4.28402652205111e-05",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.7457796846002",
     "AICcDiff": "-0.00187003739978486",
     "Selected": "TRUE"
@@ -3882,7 +3882,7 @@
     "Tau2(base model)": "0.0107046927268081",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.549694770890167",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2080553397987",
     "AICcDiff": "-5.02886621234211e-12",
     "Selected": "FALSE"
@@ -3894,7 +3894,7 @@
     "Tau2(base model)": "0.0101115298215367",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.147338052972544",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.0503505753535",
     "AICcDiff": "-6.25892226935321e-10",
     "Selected": "FALSE"
@@ -3918,7 +3918,7 @@
     "Tau2(base model)": "0.0169045992743848",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.125654532429447",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.9188174209913",
     "AICcDiff": "-3.59616336709223e-10",
     "Selected": "FALSE"
@@ -3930,7 +3930,7 @@
     "Tau2(base model)": "0",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00184774121053365",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "18.4620389251495",
     "AICcDiff": "-1.74755498960621e-08",
     "Selected": "FALSE"
@@ -3942,7 +3942,7 @@
     "Tau2(base model)": "0.0329817414866802",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.465159024178771",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.8364785806773",
     "AICcDiff": "-8.45421510575761e-10",
     "Selected": "FALSE"
@@ -3954,7 +3954,7 @@
     "Tau2(base model)": "0.00397530775483865",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0315322923951547",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5037843742283",
     "AICcDiff": "-6.3619699730566e-08",
     "Selected": "FALSE"
@@ -3966,7 +3966,7 @@
     "Tau2(base model)": "0.0884040998158152",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.319505873016671",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "18.2437421383773",
     "AICcDiff": "-2.3577335639402e-09",
     "Selected": "FALSE"
@@ -3978,7 +3978,7 @@
     "Tau2(base model)": "0.0374554430583761",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.13134512602081",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.3665772948917",
     "AICcDiff": "-1.77362835529493e-09",
     "Selected": "FALSE"
@@ -3990,7 +3990,7 @@
     "Tau2(base model)": "0.0101444987762864",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.516461013976545",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.7495396981082",
     "AICcDiff": "-4.5879243515401e-08",
     "Selected": "FALSE"
@@ -4014,7 +4014,7 @@
     "Tau2(base model)": "0.0395673985858423",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.817491369225849",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.0400516215985",
     "AICcDiff": "-1.78722814325738e-10",
     "Selected": "FALSE"
@@ -4026,7 +4026,7 @@
     "Tau2(base model)": "0.00894245262136602",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.033265052506142",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3311748906228",
     "AICcDiff": "-1.58699720032018e-11",
     "Selected": "FALSE"
@@ -4038,7 +4038,7 @@
     "Tau2(base model)": "0.00965840522603228",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0902407578553443",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.0134795965317",
     "AICcDiff": "-3.0607516521286e-10",
     "Selected": "FALSE"
@@ -4050,7 +4050,7 @@
     "Tau2(base model)": "0.0393059705917921",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.867573865503871",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.6264882688892",
     "AICcDiff": "-4.81321649203892e-11",
     "Selected": "FALSE"
@@ -4062,7 +4062,7 @@
     "Tau2(base model)": "0.0198222409149606",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.571569939302322",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.1515159137207",
     "AICcDiff": "-1.09601216990995e-12",
     "Selected": "FALSE"
@@ -4074,7 +4074,7 @@
     "Tau2(base model)": "0.0131540522996202",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.883958298061183",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.2263515619186",
     "AICcDiff": "-6.94555524205498e-12",
     "Selected": "FALSE"
@@ -4086,7 +4086,7 @@
     "Tau2(base model)": "0.00374935947900085",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0982172607367527",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.8298662798791",
     "AICcDiff": "-7.24227255943788e-09",
     "Selected": "FALSE"
@@ -4122,7 +4122,7 @@
     "Tau2(base model)": "0.00739891868042761",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.053963018747784",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5954594185381",
     "AICcDiff": "-1.66333720130751e-08",
     "Selected": "FALSE"
@@ -4134,7 +4134,7 @@
     "Tau2(base model)": "0.00465195980456061",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.149337755018877",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.0570648597574",
     "AICcDiff": "-5.04617378993544e-08",
     "Selected": "FALSE"
@@ -4146,7 +4146,7 @@
     "Tau2(base model)": "0.0905355197610615",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.669694874574366",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.458645979065",
     "AICcDiff": "-7.81632536472898e-11",
     "Selected": "FALSE"
@@ -4158,7 +4158,7 @@
     "Tau2(base model)": "0.0463863425326511",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.882090497076478",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.7463984992333",
     "AICcDiff": "-4.08562073062058e-14",
     "Selected": "FALSE"
@@ -4170,7 +4170,7 @@
     "Tau2(base model)": "3.53713757501579e-07",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000279574580380487",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.868827331078",
     "AICcDiff": "-0.000113639511978292",
     "Selected": "TRUE"
@@ -4182,7 +4182,7 @@
     "Tau2(base model)": "0.0209697235868842",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.873069228855608",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3750243183929",
     "AICcDiff": "-6.40558361908461e-09",
     "Selected": "FALSE"
@@ -4194,7 +4194,7 @@
     "Tau2(base model)": "0.0764361054295127",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.870872711311454",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.8906515872176",
     "AICcDiff": "-4.57909266060597e-11",
     "Selected": "FALSE"
@@ -4206,7 +4206,7 @@
     "Tau2(base model)": "0.0020679872929966",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00238146071596172",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0272870184935",
     "AICcDiff": "-4.98271646165449e-10",
     "Selected": "FALSE"
@@ -4218,7 +4218,7 @@
     "Tau2(base model)": "0.022261137484241",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.217677113313349",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6755393752611",
     "AICcDiff": "-1.20034115980161e-09",
     "Selected": "FALSE"
@@ -4230,7 +4230,7 @@
     "Tau2(base model)": "0.00232614366017381",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00903504974725627",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.5172064541903",
     "AICcDiff": "-8.46839824930612e-08",
     "Selected": "FALSE"
@@ -4242,7 +4242,7 @@
     "Tau2(base model)": "0.0261394747245249",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.318244681481185",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.8464513531917",
     "AICcDiff": "-1.06112452158413e-10",
     "Selected": "FALSE"
@@ -4254,7 +4254,7 @@
     "Tau2(base model)": "0.0427448296750701",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.858335402171293",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.6834451876136",
     "AICcDiff": "-6.31814600637881e-11",
     "Selected": "FALSE"
@@ -4266,7 +4266,7 @@
     "Tau2(base model)": "2.11355847779925e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000943354895422797",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.1310602538048",
     "AICcDiff": "-0.00036357113483021",
     "Selected": "TRUE"
@@ -4278,7 +4278,7 @@
     "Tau2(base model)": "0.0216605864726705",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.666405953927461",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4732218228463",
     "AICcDiff": "-1.93307947427002e-09",
     "Selected": "FALSE"
@@ -4290,7 +4290,7 @@
     "Tau2(base model)": "1.2994797782094e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000357341693378888",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.1493295333859",
     "AICcDiff": "-0.000437895299977953",
     "Selected": "TRUE"
@@ -4302,7 +4302,7 @@
     "Tau2(base model)": "0.00947872634648078",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.615846603223152",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.7525395600685",
     "AICcDiff": "-7.92208787459003e-09",
     "Selected": "FALSE"
@@ -4314,7 +4314,7 @@
     "Tau2(base model)": "5.05693887359328e-07",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00072331421193078",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0525844154636",
     "AICcDiff": "-4.18809247335616e-05",
     "Selected": "TRUE"
@@ -4326,7 +4326,7 @@
     "Tau2(base model)": "0.0534069011694621",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.725753382530504",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.0598845917883",
     "AICcDiff": "-4.68958205601666e-12",
     "Selected": "FALSE"
@@ -4338,7 +4338,7 @@
     "Tau2(base model)": "0.15258233936991",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.867015255890699",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "18.2073475562122",
     "AICcDiff": "-7.53175299905706e-13",
     "Selected": "FALSE"
@@ -4350,7 +4350,7 @@
     "Tau2(base model)": "0.0410915499864579",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.89141893530723",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.6103099992601",
     "AICcDiff": "-1.37076128225999e-10",
     "Selected": "FALSE"
@@ -4362,7 +4362,7 @@
     "Tau2(base model)": "0.00987796566064965",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.147938140668303",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.7865121470135",
     "AICcDiff": "-5.20183007779451e-10",
     "Selected": "FALSE"
@@ -4374,7 +4374,7 @@
     "Tau2(base model)": "0.0253374030994726",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.942319170516199",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.638871217361",
     "AICcDiff": "-8.84625706021325e-13",
     "Selected": "FALSE"
@@ -4398,7 +4398,7 @@
     "Tau2(base model)": "4.41617125269056e-05",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000328425756569326",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "9.82016402637841",
     "AICcDiff": "-4.53504155117912e-07",
     "Selected": "FALSE"
@@ -4410,7 +4410,7 @@
     "Tau2(base model)": "0.0144200888409334",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.270042978360496",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.6901258524354",
     "AICcDiff": "-2.34230412843317e-11",
     "Selected": "FALSE"
@@ -4422,7 +4422,7 @@
     "Tau2(base model)": "0.0319328875146604",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0332605805814574",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.3493246678862",
     "AICcDiff": "-1.75859327100625e-13",
     "Selected": "FALSE"
@@ -4434,7 +4434,7 @@
     "Tau2(base model)": "0.03242510396813",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.672610181332912",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.020344599503",
     "AICcDiff": "-8.2860118766348e-10",
     "Selected": "FALSE"
@@ -4446,7 +4446,7 @@
     "Tau2(base model)": "0.0368896168763487",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.766161214458674",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.4018467413342",
     "AICcDiff": "-6.79278855386656e-12",
     "Selected": "FALSE"
@@ -4458,7 +4458,7 @@
     "Tau2(base model)": "0.00119007158235935",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00013452978506157",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.60661456845",
     "AICcDiff": "-9.49076142120475e-08",
     "Selected": "TRUE"
@@ -4470,7 +4470,7 @@
     "Tau2(base model)": "0.00714591248944503",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0377952294915842",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.8248192431391",
     "AICcDiff": "-1.39449340963438e-10",
     "Selected": "FALSE"
@@ -4482,7 +4482,7 @@
     "Tau2(base model)": "0.00900597605519457",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0391023355530494",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.9122909296718",
     "AICcDiff": "-1.68982516868255e-09",
     "Selected": "FALSE"
@@ -4494,7 +4494,7 @@
     "Tau2(base model)": "0.103258057209086",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.889032875459145",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.4211273849237",
     "AICcDiff": "-6.85211887230253e-11",
     "Selected": "FALSE"
@@ -4506,7 +4506,7 @@
     "Tau2(base model)": "0.038058795167279",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.554578108190794",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.5185538585932",
     "AICcDiff": "-3.84883236392852e-11",
     "Selected": "FALSE"
@@ -4518,7 +4518,7 @@
     "Tau2(base model)": "3.77564888011417e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00574025461605699",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.1967407965448",
     "AICcDiff": "-0.000740302312950192",
     "Selected": "FALSE"
@@ -4530,7 +4530,7 @@
     "Tau2(base model)": "0.0558714591465067",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.990016456143218",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.1581065455931",
     "AICcDiff": "-6.60804744256893e-13",
     "Selected": "FALSE"
@@ -4542,7 +4542,7 @@
     "Tau2(base model)": "1.88700443611614e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00148909897094839",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.3490880165245",
     "AICcDiff": "-6.81714466850281e-05",
     "Selected": "FALSE"
@@ -4554,7 +4554,7 @@
     "Tau2(base model)": "0.0917258890202221",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.612227261829405",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.6426744334115",
     "AICcDiff": "-5.50333112414592e-10",
     "Selected": "FALSE"
@@ -4578,7 +4578,7 @@
     "Tau2(base model)": "0.0145811694353886",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.85724671717516",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4440037225059",
     "AICcDiff": "-6.59579058037707e-11",
     "Selected": "FALSE"
@@ -4590,7 +4590,7 @@
     "Tau2(base model)": "3.6474851221115e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000125347845552377",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4850570372612",
     "AICcDiff": "-0.000550702987734297",
     "Selected": "TRUE"
@@ -4602,7 +4602,7 @@
     "Tau2(base model)": "4.32862572081578e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000635073061607506",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.2275735847188",
     "AICcDiff": "-0.0019072292479585",
     "Selected": "FALSE"
@@ -4614,7 +4614,7 @@
     "Tau2(base model)": "4.19026262286563e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00858608094233571",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5163947454259",
     "AICcDiff": "-0.000199449800430074",
     "Selected": "FALSE"
@@ -4626,7 +4626,7 @@
     "Tau2(base model)": "0.00933760206064103",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.831524472607434",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.728772776457",
     "AICcDiff": "-3.59474228162071e-10",
     "Selected": "FALSE"
@@ -4638,7 +4638,7 @@
     "Tau2(base model)": "0.0226451662611709",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.908974134554219",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5435983077091",
     "AICcDiff": "-1.28597577031542e-10",
     "Selected": "FALSE"
@@ -4650,7 +4650,7 @@
     "Tau2(base model)": "0.0208403135171219",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0849925032154446",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.7890241404954",
     "AICcDiff": "-9.29489374357217e-10",
     "Selected": "FALSE"
@@ -4662,7 +4662,7 @@
     "Tau2(base model)": "0.0320967404700588",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.642538380221181",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.3097468946419",
     "AICcDiff": "-2.57394106029096e-12",
     "Selected": "FALSE"
@@ -4674,7 +4674,7 @@
     "Tau2(base model)": "0.0581355934621861",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.900775306940294",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.5753828475626",
     "AICcDiff": "-3.1931435273691e-10",
     "Selected": "FALSE"
@@ -4686,7 +4686,7 @@
     "Tau2(base model)": "0.000151578801700324",
     "Selected model name": "base_model (simple RE)",
     "P-value": "8.27497491805078e-07",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "9.80353622305538",
     "AICcDiff": "-1.44367868770701e-07",
     "Selected": "TRUE"
@@ -4698,7 +4698,7 @@
     "Tau2(base model)": "0.0170142123134997",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0570534935857918",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.624962930286",
     "AICcDiff": "-5.13686870817764e-11",
     "Selected": "FALSE"
@@ -4710,7 +4710,7 @@
     "Tau2(base model)": "0.0302044886548387",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0813527679302094",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.0155096300163",
     "AICcDiff": "-1.61817226285166e-10",
     "Selected": "FALSE"
@@ -4734,7 +4734,7 @@
     "Tau2(base model)": "0.0201622923563534",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.069895937321005",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.30056921078",
     "AICcDiff": "-1.2608580846063e-11",
     "Selected": "FALSE"
@@ -4746,7 +4746,7 @@
     "Tau2(base model)": "0.0339147199925963",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.524070415376894",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.2729333364137",
     "AICcDiff": "-5.10080866433782e-11",
     "Selected": "FALSE"
@@ -4758,7 +4758,7 @@
     "Tau2(base model)": "0.0198094992100206",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.222434315067721",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0971056263152",
     "AICcDiff": "-1.06439301816863e-11",
     "Selected": "FALSE"
@@ -4770,7 +4770,7 @@
     "Tau2(base model)": "0.0136555197523969",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.684189651800236",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4290478470298",
     "AICcDiff": "-8.88178419700125e-15",
     "Selected": "FALSE"
@@ -4782,7 +4782,7 @@
     "Tau2(base model)": "0.00227061421785768",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00714494358906021",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.5455859873037",
     "AICcDiff": "-4.02047639624925e-09",
     "Selected": "FALSE"
@@ -4794,7 +4794,7 @@
     "Tau2(base model)": "0.00436786404399095",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0259922147237674",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.7189043973199",
     "AICcDiff": "-1.90285920353972e-07",
     "Selected": "FALSE"
@@ -4806,7 +4806,7 @@
     "Tau2(base model)": "0.0279323572722555",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.90185488925473",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.9254408133149",
     "AICcDiff": "-6.00586247401225e-12",
     "Selected": "FALSE"
@@ -4818,7 +4818,7 @@
     "Tau2(base model)": "0.0120480738416082",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.144134553227327",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.5103930431226",
     "AICcDiff": "-2.93987056920741e-12",
     "Selected": "FALSE"
@@ -4830,7 +4830,7 @@
     "Tau2(base model)": "0.0120480738416082",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.144134553227327",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.5103930431226",
     "AICcDiff": "-2.93987056920741e-12",
     "Selected": "FALSE"
@@ -4842,7 +4842,7 @@
     "Tau2(base model)": "0.0103921983776302",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0388755346263772",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.6226132583179",
     "AICcDiff": "-4.38276970271545e-10",
     "Selected": "FALSE"
@@ -4854,7 +4854,7 @@
     "Tau2(base model)": "0.0186330072034098",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.696382356455065",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3535315509955",
     "AICcDiff": "-7.33361460447668e-09",
     "Selected": "FALSE"
@@ -4866,7 +4866,7 @@
     "Tau2(base model)": "0.0089864686181323",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0950324958258373",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4525608605834",
     "AICcDiff": "-1.21478080927773e-08",
     "Selected": "FALSE"
@@ -4878,7 +4878,7 @@
     "Tau2(base model)": "0.00732846372724162",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0980592197348626",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.555382334856",
     "AICcDiff": "-1.62060587172164e-09",
     "Selected": "FALSE"
@@ -4890,7 +4890,7 @@
     "Tau2(base model)": "0.00540397825698543",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00192364679313021",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4763517804427",
     "AICcDiff": "-4.85500351032897e-09",
     "Selected": "FALSE"
@@ -4902,7 +4902,7 @@
     "Tau2(base model)": "0.0155309645504356",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.76734555694327",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.583469967031",
     "AICcDiff": "-2.53308485298476e-12",
     "Selected": "FALSE"
@@ -4914,7 +4914,7 @@
     "Tau2(base model)": "0.000914581279309339",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0151720257440597",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.2552332625257",
     "AICcDiff": "-1.44213828434658e-07",
     "Selected": "FALSE"
@@ -4926,7 +4926,7 @@
     "Tau2(base model)": "0.0445313511264858",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.236292529452963",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.7625679357729",
     "AICcDiff": "-2.89546164822241e-13",
     "Selected": "FALSE"
@@ -4938,7 +4938,7 @@
     "Tau2(base model)": "0.000824695579325555",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000133729880292892",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.3569648313961",
     "AICcDiff": "-8.81598012369977e-08",
     "Selected": "TRUE"
@@ -4950,7 +4950,7 @@
     "Tau2(base model)": "0.012525719386695",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0711776984090025",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.4947017503514",
     "AICcDiff": "-1.14539489004528e-11",
     "Selected": "FALSE"
@@ -4962,7 +4962,7 @@
     "Tau2(base model)": "0.00308493371310409",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0021072665943694",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.6426684513252",
     "AICcDiff": "-8.45316705522237e-10",
     "Selected": "FALSE"
@@ -4974,7 +4974,7 @@
     "Tau2(base model)": "0.000459738668728473",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0126969668057172",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.7460727396251",
     "AICcDiff": "-2.1205750412534e-05",
     "Selected": "FALSE"
@@ -4986,7 +4986,7 @@
     "Tau2(base model)": "2.65284648717612e-08",
     "Selected model name": "base_model (simple RE)",
     "P-value": "1.38209944324831e-05",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.8963327676968",
     "AICcDiff": "-9.16620635749155e-06",
     "Selected": "TRUE"
@@ -4998,7 +4998,7 @@
     "Tau2(base model)": "0.0395094503757975",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.868381764468886",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.613892799272",
     "AICcDiff": "-3.42126327268488e-12",
     "Selected": "FALSE"
@@ -5010,7 +5010,7 @@
     "Tau2(base model)": "0.0142309183300638",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.975003208578388",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.5633331791481",
     "AICcDiff": "-3.22700088872807e-10",
     "Selected": "FALSE"
@@ -5022,7 +5022,7 @@
     "Tau2(base model)": "0.0265548907145222",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0708204631445611",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6658141954698",
     "AICcDiff": "-1.91846538655227e-13",
     "Selected": "FALSE"
@@ -5034,7 +5034,7 @@
     "Tau2(base model)": "0.0233807155589542",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.143870859059979",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4880140553754",
     "AICcDiff": "-6.61284360603531e-11",
     "Selected": "FALSE"
@@ -5046,7 +5046,7 @@
     "Tau2(base model)": "0.00351103666259292",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0517001536916533",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.4270554532062",
     "AICcDiff": "-7.67520091926599e-09",
     "Selected": "FALSE"
@@ -5058,7 +5058,7 @@
     "Tau2(base model)": "0.00464179879902014",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.123174973775591",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.7926139028242",
     "AICcDiff": "-9.57935952783373e-10",
     "Selected": "FALSE"
@@ -5082,7 +5082,7 @@
     "Tau2(base model)": "0.0815051104631951",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.780159421313088",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.27072032983",
     "AICcDiff": "-5.48926237797787e-10",
     "Selected": "FALSE"
@@ -5094,7 +5094,7 @@
     "Tau2(base model)": "0.0323586296963784",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.409956070431864",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.2342255705648",
     "AICcDiff": "-1.25570664977204e-11",
     "Selected": "FALSE"
@@ -5106,7 +5106,7 @@
     "Tau2(base model)": "0.0253737784850068",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.858573889180925",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6814873419016",
     "AICcDiff": "-4.77529127351772e-10",
     "Selected": "FALSE"
@@ -5118,7 +5118,7 @@
     "Tau2(base model)": "0.0255129840744096",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.887689194144522",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.8527083277955",
     "AICcDiff": "-1.43325351587009e-09",
     "Selected": "FALSE"
@@ -5130,7 +5130,7 @@
     "Tau2(base model)": "0.0222128014331606",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.781465373394689",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.3400745675048",
     "AICcDiff": "-4.27801793989602e-10",
     "Selected": "FALSE"
@@ -5142,7 +5142,7 @@
     "Tau2(base model)": "0.0170451420087557",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.69468861559133",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.1312952726834",
     "AICcDiff": "-9.90276305401494e-10",
     "Selected": "FALSE"
@@ -5154,7 +5154,7 @@
     "Tau2(base model)": "0.0733005387210914",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.80119411454214",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.8778699275095",
     "AICcDiff": "-1.11590736651124e-11",
     "Selected": "FALSE"
@@ -5166,7 +5166,7 @@
     "Tau2(base model)": "0.00821246870532632",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0278997470627156",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.1226735400249",
     "AICcDiff": "-5.08724795622584e-09",
     "Selected": "FALSE"
@@ -5178,7 +5178,7 @@
     "Tau2(base model)": "0.0118138140742219",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.760927037623902",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.016541206335",
     "AICcDiff": "-7.14440062665744e-10",
     "Selected": "FALSE"
@@ -5190,7 +5190,7 @@
     "Tau2(base model)": "0.0221760552199077",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.880441722080252",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4958636428067",
     "AICcDiff": "-8.51505532750707e-10",
     "Selected": "FALSE"
@@ -5202,7 +5202,7 @@
     "Tau2(base model)": "0.0128199480756207",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0429627740064724",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.6222779491818",
     "AICcDiff": "-3.26672022765706e-12",
     "Selected": "FALSE"
@@ -5214,7 +5214,7 @@
     "Tau2(base model)": "0.00430884171132666",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0154963892979217",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3785959434015",
     "AICcDiff": "-2.45288234168584e-10",
     "Selected": "FALSE"
@@ -5226,7 +5226,7 @@
     "Tau2(base model)": "2.66258159011549e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00124880828052025",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.9378631963596",
     "AICcDiff": "-0.0009886553401941",
     "Selected": "FALSE"
@@ -5250,7 +5250,7 @@
     "Tau2(base model)": "0.063299443202903",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.487482475003421",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.4289378041566",
     "AICcDiff": "-5.6843418860808e-14",
     "Selected": "FALSE"
@@ -5262,7 +5262,7 @@
     "Tau2(base model)": "0.00400779120500565",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.046776805205153",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5351934390228",
     "AICcDiff": "-3.20063975323137e-11",
     "Selected": "FALSE"
@@ -5286,7 +5286,7 @@
     "Tau2(base model)": "0.00129634879916777",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0179098912483802",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.4687746950135",
     "AICcDiff": "-1.26690266277762e-06",
     "Selected": "FALSE"
@@ -5298,7 +5298,7 @@
     "Tau2(base model)": "0.0200961359776857",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0682934194096778",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.1048206385718",
     "AICcDiff": "-2.52494558594663e-09",
     "Selected": "FALSE"
@@ -5310,7 +5310,7 @@
     "Tau2(base model)": "0.0187688948643371",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.147033564276554",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0242178060902",
     "AICcDiff": "-1.20195409181179e-10",
     "Selected": "FALSE"
@@ -5322,7 +5322,7 @@
     "Tau2(base model)": "0.018487014837255",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.733244867983962",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.2508037752945",
     "AICcDiff": "-1.27606583077977e-08",
     "Selected": "FALSE"
@@ -5334,7 +5334,7 @@
     "Tau2(base model)": "0.0010384538472947",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000141514037907517",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "10.6450285011669",
     "AICcDiff": "-2.01176902692168e-07",
     "Selected": "TRUE"
@@ -5346,7 +5346,7 @@
     "Tau2(base model)": "0.0263096290176158",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.785446176701148",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.7238715817318",
     "AICcDiff": "-3.00026670174702e-12",
     "Selected": "FALSE"
@@ -5358,7 +5358,7 @@
     "Tau2(base model)": "0.0175732612581839",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.610353923375617",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.1968334929305",
     "AICcDiff": "-6.58864962588268e-10",
     "Selected": "FALSE"
@@ -5370,7 +5370,7 @@
     "Tau2(base model)": "0.128887282004703",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.963144642256068",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.9160400610362",
     "AICcDiff": "-3.5580427493187e-11",
     "Selected": "FALSE"
@@ -5382,7 +5382,7 @@
     "Tau2(base model)": "0.0853550526901499",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.274037819403621",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.2003530223893",
     "AICcDiff": "-4.02167188440217e-12",
     "Selected": "FALSE"
@@ -5406,7 +5406,7 @@
     "Tau2(base model)": "3.33962587231387e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000165716360428564",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.0690372160003",
     "AICcDiff": "-0.000771457431556044",
     "Selected": "TRUE"
@@ -5418,7 +5418,7 @@
     "Tau2(base model)": "1.32822220012712e-06",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000275446058727052",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4142139694041",
     "AICcDiff": "-0.000243461067556794",
     "Selected": "TRUE"
@@ -5430,7 +5430,7 @@
     "Tau2(base model)": "0.0441550373227032",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.686059276495886",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.4102427978886",
     "AICcDiff": "-1.87384330274654e-09",
     "Selected": "FALSE"
@@ -5442,7 +5442,7 @@
     "Tau2(base model)": "0.0240547394497684",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.675715687838809",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6319786024737",
     "AICcDiff": "-2.1174173525651e-12",
     "Selected": "FALSE"
@@ -5454,7 +5454,7 @@
     "Tau2(base model)": "0.0107143865585885",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.12694721799132",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3219040528705",
     "AICcDiff": "-5.45270495422301e-11",
     "Selected": "FALSE"
@@ -5466,7 +5466,7 @@
     "Tau2(base model)": "0.00566203244290075",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0500588723171754",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.8359782160273",
     "AICcDiff": "-5.85093928862079e-09",
     "Selected": "FALSE"
@@ -5490,7 +5490,7 @@
     "Tau2(base model)": "0.000829205545897971",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.00344391092328163",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.8642310907746",
     "AICcDiff": "-8.64378257858789e-09",
     "Selected": "FALSE"
@@ -5502,7 +5502,7 @@
     "Tau2(base model)": "0.028153468811347",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.758069383803053",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.7448904167875",
     "AICcDiff": "-1.02886588138063e-11",
     "Selected": "FALSE"
@@ -5526,7 +5526,7 @@
     "Tau2(base model)": "0.0799103661614284",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.755842668132521",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.9181456160873",
     "AICcDiff": "-9.9475983006414e-14",
     "Selected": "FALSE"
@@ -5550,7 +5550,7 @@
     "Tau2(base model)": "0.0329884986295897",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.806191846504464",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.6242258588801",
     "AICcDiff": "-8.87829720852551e-09",
     "Selected": "FALSE"
@@ -5562,7 +5562,7 @@
     "Tau2(base model)": "0.0593367376292933",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.785499109589176",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.2306568131727",
     "AICcDiff": "-7.95807864051312e-13",
     "Selected": "FALSE"
@@ -5574,7 +5574,7 @@
     "Tau2(base model)": "0.006408924082525",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0325506858600428",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.8852983493985",
     "AICcDiff": "-3.07560650725236e-07",
     "Selected": "FALSE"
@@ -5586,7 +5586,7 @@
     "Tau2(base model)": "0.0029398880701172",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0193223611943247",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.2369019487466",
     "AICcDiff": "-7.29905025309563e-11",
     "Selected": "FALSE"
@@ -5598,7 +5598,7 @@
     "Tau2(base model)": "0.0247116418716063",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.510936921702036",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5317084790665",
     "AICcDiff": "-6.36042329915654e-11",
     "Selected": "FALSE"
@@ -5610,7 +5610,7 @@
     "Tau2(base model)": "0.0362647423928559",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.359911164879016",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.5688639731847",
     "AICcDiff": "-1.55431223447522e-12",
     "Selected": "FALSE"
@@ -5622,7 +5622,7 @@
     "Tau2(base model)": "0.0198079199556795",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.784152202592913",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.2633843197332",
     "AICcDiff": "-3.47171180692385e-11",
     "Selected": "FALSE"
@@ -5634,7 +5634,7 @@
     "Tau2(base model)": "0.0235031178061657",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.744237824864426",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.4685682191536",
     "AICcDiff": "-3.50723894371185e-11",
     "Selected": "FALSE"
@@ -5646,7 +5646,7 @@
     "Tau2(base model)": "0.00581172919503448",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0874256480132481",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.5968774263983",
     "AICcDiff": "-8.19535550533601e-09",
     "Selected": "FALSE"
@@ -5658,7 +5658,7 @@
     "Tau2(base model)": "0.0358234773289771",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.44180684398668",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.2173216083604",
     "AICcDiff": "-8.68460858782782e-12",
     "Selected": "FALSE"
@@ -5670,7 +5670,7 @@
     "Tau2(base model)": "0.0224417124459295",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.470226734678697",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5915920409243",
     "AICcDiff": "-8.70414851306123e-14",
     "Selected": "FALSE"
@@ -5682,7 +5682,7 @@
     "Tau2(base model)": "0.032896722920011",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.111265129493244",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.1459143053504",
     "AICcDiff": "-2.00728322852228e-10",
     "Selected": "FALSE"
@@ -5694,7 +5694,7 @@
     "Tau2(base model)": "0.00933325746538813",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0183528975365488",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5101832757553",
     "AICcDiff": "-2.40572006759976e-11",
     "Selected": "FALSE"
@@ -5706,7 +5706,7 @@
     "Tau2(base model)": "0.00911588548460192",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.189695132095143",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0466273225842",
     "AICcDiff": "-3.60686023270773e-08",
     "Selected": "FALSE"
@@ -5718,7 +5718,7 @@
     "Tau2(base model)": "0.0572456866197404",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.108909921421375",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.3258579762792",
     "AICcDiff": "-3.80140363631654e-13",
     "Selected": "FALSE"
@@ -5730,7 +5730,7 @@
     "Tau2(base model)": "0.0038560564275933",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0870522738720893",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.2938678228192",
     "AICcDiff": "-1.23526710638089e-07",
     "Selected": "FALSE"
@@ -5742,7 +5742,7 @@
     "Tau2(base model)": "0.0165715026486793",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0842677153434253",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.8565434701109",
     "AICcDiff": "-1.23037580124219e-10",
     "Selected": "FALSE"
@@ -5766,7 +5766,7 @@
     "Tau2(base model)": "0.00850427420416718",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.106532782022266",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.5600795710595",
     "AICcDiff": "-7.94587862174012e-09",
     "Selected": "FALSE"
@@ -5778,7 +5778,7 @@
     "Tau2(base model)": "0.0143371565119022",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.70642905136453",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.3232405323729",
     "AICcDiff": "-2.04320116381496e-09",
     "Selected": "FALSE"
@@ -5802,7 +5802,7 @@
     "Tau2(base model)": "0.0058744364615837",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.358485014656404",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.6357859231788",
     "AICcDiff": "-1.81018968703484e-07",
     "Selected": "FALSE"
@@ -5814,7 +5814,7 @@
     "Tau2(base model)": "0.0307565542641381",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.950953564549263",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.0077671008949",
     "AICcDiff": "-2.71782596428238e-13",
     "Selected": "FALSE"
@@ -5826,7 +5826,7 @@
     "Tau2(base model)": "0.00804796176818637",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.183496341425618",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.6334296268894",
     "AICcDiff": "-2.16254925078374e-09",
     "Selected": "FALSE"
@@ -5838,7 +5838,7 @@
     "Tau2(base model)": "0.0207719771834272",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.783439880485053",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.1119272796582",
     "AICcDiff": "-2.52176945991778e-10",
     "Selected": "FALSE"
@@ -5850,7 +5850,7 @@
     "Tau2(base model)": "0.0156517776555197",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.961029471094734",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.7724164365707",
     "AICcDiff": "-5.96287463849876e-11",
     "Selected": "FALSE"
@@ -5862,7 +5862,7 @@
     "Tau2(base model)": "0.00290248641316786",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.000441686798943463",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "11.1054436512967",
     "AICcDiff": "-1.43969955956891e-08",
     "Selected": "FALSE"
@@ -5874,7 +5874,7 @@
     "Tau2(base model)": "0.038377967504572",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.916135416676527",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.5878624272107",
     "AICcDiff": "-1.28430599488638e-11",
     "Selected": "FALSE"
@@ -5886,7 +5886,7 @@
     "Tau2(base model)": "0.0722781922104243",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.801312502914402",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "16.8909839577262",
     "AICcDiff": "-5.92628168760712e-11",
     "Selected": "FALSE"
@@ -5898,7 +5898,7 @@
     "Tau2(base model)": "0.00555899250641736",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.010364869501988",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.330474863896",
     "AICcDiff": "-2.28668124435671e-08",
     "Selected": "FALSE"
@@ -5910,7 +5910,7 @@
     "Tau2(base model)": "0.0869122994543491",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.71366268791569",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "17.6578496709065",
     "AICcDiff": "-6.27398577535132e-10",
     "Selected": "FALSE"
@@ -5922,7 +5922,7 @@
     "Tau2(base model)": "0.0297690958566501",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.851627213464248",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.0473011054989",
     "AICcDiff": "-2.75710121400152e-10",
     "Selected": "FALSE"
@@ -5934,7 +5934,7 @@
     "Tau2(base model)": "0.0163859940368821",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.273391387844018",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.0591113707306",
     "AICcDiff": "-2.40556019548421e-10",
     "Selected": "FALSE"
@@ -5946,7 +5946,7 @@
     "Tau2(base model)": "0.00705293157196276",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.21549313770205",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.777310221979",
     "AICcDiff": "-5.55721902273376e-07",
     "Selected": "FALSE"
@@ -5958,7 +5958,7 @@
     "Tau2(base model)": "0.0256785517992169",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.625422265761739",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.8064851503136",
     "AICcDiff": "-6.58975096712311e-11",
     "Selected": "FALSE"
@@ -5970,7 +5970,7 @@
     "Tau2(base model)": "0.0375872381997515",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.836896495428431",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.4191389232738",
     "AICcDiff": "-1.55946366930948e-11",
     "Selected": "FALSE"
@@ -5982,7 +5982,7 @@
     "Tau2(base model)": "0.00616029927138916",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0289670226427878",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "12.2977022626787",
     "AICcDiff": "-1.5404566511279e-11",
     "Selected": "FALSE"
@@ -5994,7 +5994,7 @@
     "Tau2(base model)": "0.0250600299381981",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.197360243555312",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.6092202106541",
     "AICcDiff": "-3.88169496545743e-11",
     "Selected": "FALSE"
@@ -6030,7 +6030,7 @@
     "Tau2(base model)": "0.0297585948300141",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.0786360604873139",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.0754247582971",
     "AICcDiff": "-5.18273424177096e-10",
     "Selected": "FALSE"
@@ -6054,7 +6054,7 @@
     "Tau2(base model)": "0.0158873830427528",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.483224486955587",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "13.6043559362129",
     "AICcDiff": "-1.77953651814278e-10",
     "Selected": "FALSE"
@@ -6066,7 +6066,7 @@
     "Tau2(base model)": "0.0236023984731526",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.511170306198941",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.5465498882981",
     "AICcDiff": "-5.90461013416643e-11",
     "Selected": "FALSE"
@@ -6078,7 +6078,7 @@
     "Tau2(base model)": "0.0295180657654716",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.638213274299721",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "14.7896662144232",
     "AICcDiff": "-6.79811762438476e-12",
     "Selected": "FALSE"
@@ -6090,7 +6090,7 @@
     "Tau2(base model)": "0.033854569503002",
     "Selected model name": "base_model (simple RE)",
     "P-value": "0.701058151793598",
-    "I2(selected model - if available)": null,
+    "I2(selected model - if available)": "NA",
     "AICc(selected model)": "15.4414221999597",
     "AICcDiff": "-2.24687113359323e-09",
     "Selected": "FALSE"
