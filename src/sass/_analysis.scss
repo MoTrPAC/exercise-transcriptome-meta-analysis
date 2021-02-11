@@ -100,6 +100,18 @@
         margin-right: 0.25rem;
       }
     }
+
+    .plot-image-wrapper {
+      border: 1px solid #dee2e6;
+      border-radius: 4px;
+    }
+
+    .plot-image-wrapper,
+    .plot-notes-wrapper {
+      &.hidden {
+        display: none;
+      }
+    }
   }
 }
 

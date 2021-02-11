@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Autosuggest from 'react-autosuggest';
@@ -31,6 +31,8 @@ function Analysis({
   fetchGeneData,
   fetchAnalysisInput,
 }) {
+  const [imgError, setImgError] = useState(false);
+
   // Genes available in this preliminary version is based of
   // longterm_muscle genes (more than the other 3 experiments)
   function handleGeneSearchSubmission(queryString) {
@@ -98,9 +100,9 @@ function Analysis({
       'Training',
       'Avg Age',
       'Age SD',
-      'Prop Males',
+      '%Males',
       'Time',
-      'N',
+      'Sample Size',
       'Beta',
       'SDD',
     ];
@@ -130,7 +132,7 @@ function Analysis({
         <td className="gene-meta-analysis-value text-nowrap">{item.training}</td>
         <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.avg_age, 2)}</td>
         <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.age_sd, 2)}</td>
-        <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.prop_males, 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.prop_males*100, 2)}</td>
         <td className="gene-meta-analysis-value text-nowrap">{item.time}</td>
         <td className="gene-meta-analysis-value text-nowrap">{item.N}</td>
         <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.yi, 2)}</td>
@@ -175,12 +177,27 @@ function Analysis({
 
       return (
         <div className="plot-container">
-          <img className="img-fluid plot-image" src={plot} alt={geneSymbol.toUpperCase()}
-            onError={(e) => {
-              e.target.onerror = null;
-              e.target.src = '1-pixel.gif';
-            }}
-          />
+          <div className={`plot-image-wrapper px-4 py-4 mt-4 mb-3${imgError ? ' hidden' : ''}`}>
+            <img className="img-fluid plot-image" src={plot} alt={geneSymbol.toUpperCase()}
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = '1-pixel.gif';
+                setImgError(true);
+              }}
+            />
+          </div>
+          <ul className={`plot-notes-wrapper mx-0 mb-1 px-1 list-unstyled${imgError ? ' hidden' : ''}`}>
+            <li className="plot-notes-item text-muted">
+              <span>
+                * I^2 between 50% and 75% is considered to represent medium-high effect heterogeneity, p-values may be inaccurate.
+              </span>
+            </li>
+            <li className="plot-notes-item text-muted">
+              <span>
+                ** I^2 &gt; 75% is considered as to be high effect heterogeneity, p-values are likely to be inaccurate.
+              </span>
+            </li>
+          </ul>
         </div>
       );
     }
