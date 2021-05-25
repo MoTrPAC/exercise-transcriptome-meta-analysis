@@ -44,6 +44,7 @@ export default function AnalysisReducer(
       return {
         ...state,
         geneSearchInput: action.inputValue,
+        geneSearchError: null,
       };
 
     // Handle auto suggestions of genes
