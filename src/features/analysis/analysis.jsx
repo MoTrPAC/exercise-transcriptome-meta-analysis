@@ -333,8 +333,8 @@ function Analysis({
     handleGeneSearchInputChange(newValue);
   };
 
-  const onSuggestionsFetchRequested = () => {
-    const suggestions = getSuggestions(geneSearchInput, MetaAnalysisGenes);
+  const onSuggestionsFetchRequested = ({ value }) => {
+    const suggestions = getSuggestions(value, MetaAnalysisGenes);
     handleGeneSuggestionsFetch(suggestions);
   };
 
