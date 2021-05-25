@@ -2,6 +2,8 @@ import axios from 'axios';
 
 export const SAVE_GENE_SEARCH_TERM = 'SAVE_GENE_SEARCH_TERM';
 export const GENE_SEARCH_INPUT_CHANGE = 'GENE_SEARCH_INPUT_CHANGE';
+export const GENE_SUGGESTIONS_FETCH = 'GENE_SUGGESTIONS_FETCH';
+export const GENE_SUGGESTIONS_CLEAR = 'GENE_SUGGESTIONS_CLEAR';
 export const GENE_SEARCH_SUBMIT = 'GENE_SEARCH_SUBMIT';
 export const GENE_SEARCH_FAILURE = 'GENE_SEARCH_FAILURE';
 export const GENE_SEARCH_SUCCESS = 'GENE_SEARCH_SUCCESS';
@@ -15,10 +17,23 @@ function saveGeneSearchTerm(geneSymbol) {
   };
 }
 
-function geneSearchInputChange(e) {
+function geneSearchInputChange(geneInputValue = '') {
   return {
     type: GENE_SEARCH_INPUT_CHANGE,
-    inputValue: e.target.value,
+    inputValue: geneInputValue,
+  };
+}
+
+function geneSuggestionsFetch(suggestions) {
+  return {
+    type: GENE_SUGGESTIONS_FETCH,
+    geneSuggestions: suggestions,
+  };
+}
+
+function geneSuggestionsClear() {
+  return {
+    type: GENE_SUGGESTIONS_CLEAR,
   };
 }
 
@@ -117,6 +132,8 @@ function fetchAnalysisInput(geneSymbol) {
 
 const AnalysisActions = {
   geneSearchInputChange,
+  geneSuggestionsFetch,
+  geneSuggestionsClear,
   geneSearchFailure,
   fetchGeneData,
   fetchAnalysisInput,

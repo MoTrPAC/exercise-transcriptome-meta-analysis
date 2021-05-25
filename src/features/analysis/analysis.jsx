@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import Autosuggest from 'react-autosuggest';
+import getSuggestions, { getSuggestionValue, renderSuggestion } from '../../lib/auto-suggest';
+import roundNumbers from '../../lib/round-numbers';
 import AnalysisActions from './analysisActions';
 import MetaAnalysisGenes, { summaryStats } from '../../data/metaAnalysis';
-import iconLoading from '../../assets/icons/sync.png';
+import ProgressIndicator from '../../components/progress-indicator';
 
 /**
  * Functional component to render human meta-analysis acute muscle data visualization
@@ -17,33 +20,33 @@ function Analysis({
   geneSearchError,
   geneSearchInput,
   geneSymbol,
+  geneSuggestions,
   isGeneSearchInProgress,
   isInputFetchInProgress,
   inputFetchPayload,
   handleGeneSearchInputChange,
+  handleGeneSuggestionsFetch,
+  handleGeneSuggestionsClear,
   geneSearchFailure,
   fetchGeneData,
   fetchAnalysisInput,
 }) {
-  // Only a limited number of genes available in preliminary version
+  const [imgError, setImgError] = useState(false);
+
+  // Genes available in this preliminary version is based of
+  // longterm_muscle genes (more than the other 3 experiments)
   function handleGeneSearchSubmission(queryString) {
     if (MetaAnalysisGenes.indexOf(queryString.toUpperCase()) > -1) {
-      const match = summaryStats.acute_muscle.find((item) => item.Symbol === queryString.toUpperCase());
+      const match = summaryStats.longterm_muscle.find((item) => item.Symbol === queryString.toUpperCase());
       fetchGeneData(match.Symbol, match.EntrezID);
       fetchAnalysisInput(match.Symbol);
     } else {
       return geneSearchFailure('No matching gene was found.');
     }
   }
-  /**
-   * Utility function - simple Math.round method
-   * alternative #1 - Math.round(num * 10) / 10; //*** returns 1 decimal
-   * alternative #2 - Math.round((num + 0.00001) * 100) / 100; //*** returns 2 decimals
-   */
-  const classificationMathRound = (number, decimals) => {
-    return Number(Math.round(number + ('e' + decimals)) + ('e-' + decimals));
-  };
 
+  // Return the gene stat object for a given experiment
+  // e.g. acute_muscle, longterm_muscle
   function getSummaryStat(tissue) {
     const geneStat = summaryStats[tissue].find(
         (item) => item.Symbol === geneSymbol.toUpperCase()
@@ -72,7 +75,7 @@ function Analysis({
               <tr>
                 {Object.entries(geneStat).map(([key, value]) => {
                   return (
-                    <td key={`${tissue}-${value}-${key}`}>{!Number.isNaN(classificationMathRound(Number(value), 2)) ? classificationMathRound(Number(value), 2) : value}</td>
+                    <td key={`${tissue}-${value}-${key}`}>{!Number.isNaN(roundNumbers(value, 2)) ? roundNumbers(value, 2) : value}</td>
                   );
                 })}
               </tr>
@@ -89,37 +92,58 @@ function Analysis({
     )
   }
 
-  // Renders table head of gene meta-analysis
-  const renderMetaAnalysisTableHead = () => {
+  // Renders column head of gene meta-analysis input table
+  const renderMetaAnalysisTableHead = ({ tissue }) => {
+    const tableHeads = [
+      'Cohort ID',
+      'Geo ID',
+      'Training',
+      'Avg Age',
+      'Age SD',
+      '%Males',
+      'Time',
+      'Sample Size',
+      'Beta',
+      'SDD',
+    ];
     return (
       <tr className="table-head">
-        <th scope="col" className="gene-meta-analysis-label text-nowrap">Cohort ID</th>
-        <th scope="col" className="gene-meta-analysis-label text-nowrap">Geo ID</th>
-        <th scope="col" className="gene-meta-analysis-label text-nowrap">Training</th>
-        <th scope="col" className="gene-meta-analysis-label text-nowrap">Avg Age</th>
-        <th scope="col" className="gene-meta-analysis-label text-nowrap">Age SD</th>
-        <th scope="col" className="gene-meta-analysis-label text-nowrap">SDD</th>
+        {tableHeads.map((item) => {
+          return (
+            <th
+              scope="col"
+              key={`${tissue}-${item}`}
+              className="gene-meta-analysis-label text-nowrap"
+            >
+              {`${item}`}
+            </th>
+          );
+        })}
       </tr>
     );
   };
 
-  // Renders individual rows of gene meta-analysis data
+  // Renders individual rows of gene meta-analysis input table
   const renderMetaAnalysisTableRows = (data) => {
     const rows = data.map(item => (
       <tr key={item.sdd} className={`${item.avg_age} ${item.age_sd} ${item.sdd}`}>
         <td className="gene-meta-analysis-value text-nowrap">{item.V1}</td>
         <td className="gene-meta-analysis-value text-nowrap">{item.gse}</td>
         <td className="gene-meta-analysis-value text-nowrap">{item.training}</td>
-        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.avg_age), 2)}</td>
-        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.age_sd), 2)}</td>
-        <td className="gene-meta-analysis-value text-nowrap">{classificationMathRound(Number(item.sdd), 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.avg_age, 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.age_sd, 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.prop_males*100, 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{item.time}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{item.N}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.yi, 2)}</td>
+        <td className="gene-meta-analysis-value text-nowrap">{roundNumbers(item.sdd, 2)}</td>
       </tr>
     ));
 
     return rows;
   };
 
-  // Renders meta-analysis of a gene for acute muscle
+  // Renders meta-analysis input table of a given experiment
   function renderAnalysisInput(tissue) {
     if (inputFetchPayload && inputFetchPayload[tissue] && inputFetchPayload[tissue].data) {
       return (
@@ -127,7 +151,7 @@ function Analysis({
           <div className="table-responsive analysis-input-table-wrapper">
             <table className="table table-sm table-striped analysisInputTable">
               <thead className="thead-dark">
-                {renderMetaAnalysisTableHead()}
+                {renderMetaAnalysisTableHead(tissue)}
               </thead>
               <tbody>{renderMetaAnalysisTableRows(inputFetchPayload[tissue].data)}</tbody>
             </table>
@@ -145,18 +169,35 @@ function Analysis({
     return null;
   }
 
+  // Renders the plot given the presence of the analysis input table
+  // for a particular experiment
   function renderForestPlot(tissue) {
     if (inputFetchPayload && inputFetchPayload[tissue] && inputFetchPayload[tissue].data) {
       const plot = `https://cdn-data-assets.extrameta.org/plots/${tissue}/${geneSymbol.toUpperCase()}.png`;
 
       return (
         <div className="plot-container">
-          <img className="img-fluid plot-image" src={plot} alt={geneSymbol.toUpperCase()}
-            onError={(e) => {
-              e.target.onerror = null;
-              e.target.src = '1-pixel.gif';
-            }}
-          />
+          <div className={`plot-image-wrapper px-4 py-4 mt-4 mb-3${imgError ? ' hidden' : ''}`}>
+            <img className="img-fluid plot-image" src={plot} alt={geneSymbol.toUpperCase()}
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = '1-pixel.gif';
+                setImgError(true);
+              }}
+            />
+          </div>
+          <ul className={`plot-notes-wrapper mx-0 mb-1 px-1 list-unstyled${imgError ? ' hidden' : ''}`}>
+            <li className="plot-notes-item text-muted">
+              <span>
+                * I^2 between 50% and 75% is considered to represent medium-high effect heterogeneity, p-values may be inaccurate.
+              </span>
+            </li>
+            <li className="plot-notes-item text-muted">
+              <span>
+                ** I^2 &gt; 75% is considered as to be high effect heterogeneity, p-values are likely to be inaccurate.
+              </span>
+            </li>
+          </ul>
         </div>
       );
     }
@@ -164,7 +205,7 @@ function Analysis({
     return null;
   }
 
-  // render recent user searched gene symbols if no error
+  // Renders recent user searched gene symbols if no error
   // otherwise, render error message
   function renderSavedSearches() {
     if (geneSearchError && geneSearchError.length) {
@@ -203,6 +244,7 @@ function Analysis({
     return null;
   }
 
+  // Renders gene name and summary
   function renderGeneDefinition() {
     if (geneSearchPayload && Object.keys(geneSearchPayload).length) {
       return (
@@ -210,7 +252,7 @@ function Analysis({
           <dt>Name:</dt>
           <dd>{geneSearchPayload.name}</dd>
           <dt>Summary:</dt>
-          <dd>{geneSearchPayload.summary}</dd>
+          <dd>{geneSearchPayload.summary ? geneSearchPayload.summary : 'Summary was not found.'}</dd>
         </dl>
       );
     }
@@ -218,6 +260,8 @@ function Analysis({
     return null;
   }
 
+  // Renders the gene stats table, analysis input table,
+  // and forest plot for a given experiment
   function renderTissueAnalysis(tissue) {
     return (
       <div className="stat-plot-input-wrapper">
@@ -228,6 +272,7 @@ function Analysis({
     );
   }
 
+  // Renders all 4 analyses in tab UIs
   function renderResult() {
     if (
       !isGeneSearchInProgress &&
@@ -283,6 +328,27 @@ function Analysis({
     return null;
   }
 
+  // Start:: implementation of auto suggestions of genes
+  const onChange = (event, { newValue, method }) => {
+    handleGeneSearchInputChange(newValue);
+  };
+
+  const onSuggestionsFetchRequested = ({ value }) => {
+    const suggestions = getSuggestions(value, MetaAnalysisGenes);
+    handleGeneSuggestionsFetch(suggestions);
+  };
+
+  const onSuggestionsClearRequested = () => {
+    handleGeneSuggestionsClear();
+  };
+
+  const inputProps = {
+    placeholder: 'Search a gene for analysis',
+    value: geneSearchInput,
+    onChange: onChange,
+  };
+  // End:: implementation of auto suggestions of genes
+
   return (
     <div className="analysis-page-container">
       {/* header section */}
@@ -313,6 +379,7 @@ function Analysis({
               }}
             >
               <div className="input-group ml-2">
+                {/*
                 <input
                   type="text"
                   className="form-control"
@@ -325,6 +392,15 @@ function Analysis({
                     e.preventDefault();
                     handleGeneSearchInputChange(e);
                   }}
+                />
+                */}
+                <Autosuggest
+                  suggestions={geneSuggestions}
+                  onSuggestionsFetchRequested={onSuggestionsFetchRequested}
+                  onSuggestionsClearRequested={onSuggestionsClearRequested}
+                  getSuggestionValue={getSuggestionValue}
+                  renderSuggestion={renderSuggestion}
+                  inputProps={inputProps}
                 />
                 <div className="input-group-append">
                   <button
@@ -346,11 +422,7 @@ function Analysis({
         </div>
         {/* meta-analysis data container */}
         {(isGeneSearchInProgress || isInputFetchInProgress) && (
-          <div className="meta-analysis-data-container container">
-            <div className="row loading-ui">
-              <img src={iconLoading} className="in-progress-spinner" alt="Request in progress" />
-            </div>
-          </div>
+          <ProgressIndicator />
         )}
         {renderResult()}
       </div>
@@ -366,12 +438,15 @@ Analysis.propTypes = {
   geneSearchError: PropTypes.string,
   geneSearchInput: PropTypes.string,
   geneSymbol: PropTypes.string,
+  geneSuggestions: PropTypes.arrayOf(PropTypes.string),
   isGeneSearchInProgress: PropTypes.bool,
   isInputFetchInProgress: PropTypes.bool,
   inputFetchPayload: PropTypes.shape({
     data: PropTypes.object,
   }),
   handleGeneSearchInputChange: PropTypes.func.isRequired,
+  handleGeneSuggestionsFetch: PropTypes.func.isRequired,
+  handleGeneSuggestionsClear: PropTypes.func.isRequired,
   geneSearchFailure: PropTypes.func.isRequired,
   fetchGeneData: PropTypes.func.isRequired,
   fetchAnalysisInput: PropTypes.func.isRequired,
@@ -383,6 +458,7 @@ Analysis.defaultProps = {
   geneSearchError: null,
   geneSearchInput: '',
   geneSymbol: '',
+  geneSuggestions: [],
   isGeneSearchInProgress: false,
   isInputFetchInProgress: false,
   inputFetchPayload: {},
@@ -393,8 +469,12 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  handleGeneSearchInputChange: (e) =>
-    dispatch(AnalysisActions.geneSearchInputChange(e)),
+  handleGeneSearchInputChange: (geneInputValue) =>
+    dispatch(AnalysisActions.geneSearchInputChange(geneInputValue)),
+  handleGeneSuggestionsFetch: (suggestions) =>
+    dispatch(AnalysisActions.geneSuggestionsFetch(suggestions)),
+  handleGeneSuggestionsClear: () =>
+    dispatch(AnalysisActions.geneSuggestionsClear()),
   geneSearchFailure: (geneSearchError) =>
     dispatch(AnalysisActions.geneSearchFailure(geneSearchError)),
   fetchGeneData: (geneSymbol, geneId) =>
