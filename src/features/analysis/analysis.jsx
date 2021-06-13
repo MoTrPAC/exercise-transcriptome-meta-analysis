@@ -7,6 +7,7 @@ import roundNumbers from '../../lib/round-numbers';
 import AnalysisActions from './analysisActions';
 import MetaAnalysisGenes, { summaryStats } from '../../data/metaAnalysis';
 import ProgressIndicator from '../../components/progress-indicator';
+import iconRocket from '../../assets/icons/rocket.svg';
 
 /**
  * Functional component to render human meta-analysis acute muscle data visualization
@@ -360,6 +361,39 @@ function Analysis({
               <p className="text-muted">
                 This meta-analysis has been conducted on public transcriptome data from 1,724 samples. The analysis includes two sub-analyses: a meta-analysis of all cohorts and a gene-based time course clustering. The results are separated into "Acute Blood", "Acute Muscle", "Longterm Blood" and "Longterm Muscle", where acute means a single bout of endurance or resistance exercise.
               </p>
+            </div>
+            <div className="banner-wrapper row mt-3 mb-0">
+              <div className="animated-cloud-container h-100 w-100">
+                <div class="x1">
+                    <div class="cloud"></div>
+                </div>
+                <div class="x2">
+                    <div class="cloud"></div>
+                </div>
+                <div class="x3">
+                    <div class="cloud"></div>
+                </div>
+                <div class="x4">
+                    <div class="cloud"></div>
+                </div>
+                <div class="x5">
+                    <div class="cloud"></div>
+                </div>
+              </div>
+              <div className="banner-content px-4 py-4 text-white">
+                <h4 className="banner-heading d-flex align-items-center mb-3">
+                  <span>Open access article  published</span>
+                  <img className="banner-heading-icon ml-1" src={iconRocket} alt="Launched!" />
+                </h4>
+                <span>
+                  Amar, D., Lindholm, M.E., Norrbom, J. <em>et al.</em> Time trajectories in the
+                  transcriptomic response to exercise - a meta-analysis. <em>Nat Commun</em> 12, 3471 (2021).
+                  {' '}
+                  <a className="banner-link" href="https://doi.org/10.1038/s41467-021-23579-x" target="_blank" rel="noreferrer">
+                    https://doi.org/10.1038/s41467-021-23579-x
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </section>
