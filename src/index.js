@@ -5,7 +5,7 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { install } from 'ga-gtag';
-import trackingId from './lib/google-analytics';
+import trackingId from './components/google-analytics';
 import './main.css';
 import App from './app/App';
 import configureStore from './app/configureStore';

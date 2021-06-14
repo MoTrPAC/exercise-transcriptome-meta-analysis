@@ -4,7 +4,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import AnalysisConnected from '../features/analysis/analysis';
 import About from '../features/about/about';
-import { withTracker } from '../lib/google-analytics';
+import { withTracker } from '../components/google-analytics';
 
 function App() {
   return (
