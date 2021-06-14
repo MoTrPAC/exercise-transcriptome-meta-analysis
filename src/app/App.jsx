@@ -4,6 +4,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import AnalysisConnected from '../features/analysis/analysis';
 import About from '../features/about/about';
+import { withTracker } from '../lib/google-analytics';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
         </header>
         <section className="main">
           <Switch>
-            <Route path="/" exact component={AnalysisConnected} />
-            <Route path="/about" component={About} />
+            <Route path="/" exact component={withTracker(AnalysisConnected)} />
+            <Route path="/about" component={withTracker(About)} />
           </Switch>
         </section>
         <footer className="footer mt-auto">
