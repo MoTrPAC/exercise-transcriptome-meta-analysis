@@ -6,6 +6,9 @@ import App from '../App';
 
 const store = configureStore();
 
+// Mocking Google Analytics
+jest.mock('ga-gtag');
+
 test('renders app name text', () => {
   const { getByText } = render(
     <Provider store={store}>
