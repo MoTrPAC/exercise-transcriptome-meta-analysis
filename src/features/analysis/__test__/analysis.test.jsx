@@ -31,7 +31,8 @@ describe('Main analysis page', () => {
       </Provider>
     );
 
-    // verify page content for expected route
+    // verify page content
+    expect(screen.getByText(/Open access article published/i)).toBeInTheDocument();
     expect(screen.getByPlaceholderText(/Search a gene for analysis/i)).toBeInTheDocument();
   });
 });
