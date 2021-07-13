@@ -7,6 +7,7 @@ import roundNumbers from '../../lib/round-numbers';
 import AnalysisActions from './analysisActions';
 import MetaAnalysisGenes, { summaryStats } from '../../data/metaAnalysis';
 import ProgressIndicator from '../../components/progress-indicator';
+import PublicationBanner from '../../components/publication-banner';
 
 /**
  * Functional component to render human meta-analysis acute muscle data visualization
@@ -361,6 +362,7 @@ function Analysis({
                 This meta-analysis has been conducted on public transcriptome data from 1,724 samples. The analysis includes two sub-analyses: a meta-analysis of all cohorts and a gene-based time course clustering. The results are separated into "Acute Blood", "Acute Muscle", "Longterm Blood" and "Longterm Muscle", where acute means a single bout of endurance or resistance exercise.
               </p>
             </div>
+            <PublicationBanner />
           </div>
         </section>
       )}
