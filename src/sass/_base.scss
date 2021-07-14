@@ -216,3 +216,52 @@ html, body {
   right: 50px;
   top: -90px;
 }
+
+// Responsive styling
+@media (max-width: 835px) {
+  .banner-wrapper {
+    max-height: 10.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner-wrapper {
+    max-height: 12.0em;
+  }
+}
+
+@media (max-width: 535px) {
+  .banner-wrapper {
+    min-height: 18.0em;
+
+    .banner-content {
+      .banner-heading {
+        .banner-heading-icon {
+          display: none;
+        }
+      }
+    }
+
+    .animated-cloud-container {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 395px) {
+  .banner-wrapper {
+    min-height: 18.25em;
+  }
+}
+
+@media (max-width: 375px) {
+  .banner-wrapper {
+    min-height: 19.25em;
+  }
+}
+
+@media (max-width: 325px) {
+  .banner-wrapper {
+    min-height: 20.75em;
+  }
+}
