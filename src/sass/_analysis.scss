@@ -229,3 +229,17 @@
     margin-right: 1.5em;
   }
 }
+
+@media (max-width: 395px) {
+  .react-autosuggest__input,
+  .react-autosuggest__suggestions-container--open {
+    width: 215px;
+  }
+}
+
+@media (max-width: 325px) {
+  .react-autosuggest__input,
+  .react-autosuggest__suggestions-container--open {
+    width: 175px;
+  }
+}
