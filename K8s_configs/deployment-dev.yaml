@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: extrameta-frontend-app
-        image: gcr.io/$PROJECT_ID/extrameta-frontend-dev:$SHORT_SHA
+        image: gcr.io/$_PROJECT_ID/extrameta-frontend-dev:$SHORT_SHA
         ports:
         - containerPort: 80
