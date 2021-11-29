@@ -5,6 +5,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 COPY package*.json ./
 RUN yarn
 COPY . ./
+RUN yarn sass
 RUN yarn build
 
 # server environment
