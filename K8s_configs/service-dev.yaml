@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: extrameta-frontend-dev
+spec:
+  type: LoadBalancer
+  selector:
+    app: extrameta-frontend
+  ports:
+  - port: 80
+    targetPort: 80

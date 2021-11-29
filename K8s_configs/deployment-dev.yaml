@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: extrameta-frontend-dev
+  namespace: motrpac-portal-dev
+  labels:
+    app: extrameta-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: extrameta-frontend
+      env: dev
+  template:
+    metadata:
+      labels:
+        app: extrameta-frontend
+        env: dev
+    spec:
+      containers:
+      - name: extrameta-frontend-app
+        image: gcr.io/$PROJECT_ID/extrameta-frontend-dev:$SHORT_SHA
+        ports:
+        - containerPort: 80
