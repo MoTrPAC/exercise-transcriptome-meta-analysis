@@ -3,35 +3,36 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@reduxjs/toolkit": "^1.1.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "axios": "^0.21.1",
+    "@reduxjs/toolkit": "^2.2.2",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/user-event": "^14.5.2",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
     "bootstrap": "4.6.0",
-    "from-exponential": "^1.0.0",
-    "ga-gtag": "^1.1.0",
-    "jquery": "^3.5.1",
-    "popper.js": "1.14.3",
-    "prop-types": "15.7.2",
-    "react": "^17.0.1",
+    "from-exponential": "^1.1.1",
+    "ga-gtag": "^1.2.0",
+    "jquery": "^3.7.1",
+    "popper.js": "1.16.1",
+    "prop-types": "15.8.1",
+    "react": "^17.0.2",
     "react-autosuggest": "^10.1.0",
-    "react-dom": "^17.0.1",
-    "react-redux": "^7.1.3",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "4.0.1",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0",
-    "victory": "^35.4.0"
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.9",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^3.1.0",
+    "victory": "^37.0.1"
   },
   "devDependencies": {
-    "eslint-config-prettier": "7.2.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "2.2.1",
-    "redux-devtools-extension": "^2.13.8",
-    "sass": "^1.25.0",
-    "stylelint": "^13.2.0",
-    "stylelint-config-recommended": "^3.0.0"
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "redux-devtools-extension": "^2.13.9",
+    "sass": "^1.72.0",
+    "stylelint": "^16.3.1",
+    "stylelint-config-recommended": "^14.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,6 +44,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "resolutions": {
+    "autoprefixer": "10.4.19"
   },
   "browserslist": {
     "production": [
