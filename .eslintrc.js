@@ -3,7 +3,7 @@ module.exports = {
     "react-app",
     "react-app/jest",
     "plugin:prettier/recommended",
-    "prettier/react"
+    "prettier"
   ],
   "plugins": [
     "prettier"
