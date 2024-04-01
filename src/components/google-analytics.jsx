@@ -12,10 +12,10 @@ const trackingId = () => {
   let analyticsTrackerHostname = document.location.hostname;
 
   // match hostname to google analytics domain identified for tracker
-  if (/^(www\.)?extrameta.org/.test(analyticsTrackerHostname)) {
+  if (/^(www\.)?extrameta\.org\//.test(analyticsTrackerHostname)) {
     // production app
     analyticsTrackerHostname = 'extrameta.org';
-  } else if (/^test.extra-meta.org/.test(analyticsTrackerHostname)) {
+  } else if (/^test\.extra-meta\.org\//.test(analyticsTrackerHostname)) {
     // test app
     analyticsTrackerHostname = 'test.extra-meta.org';
   } else {
