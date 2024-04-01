@@ -47,7 +47,7 @@
     "extends": "react-app"
   },
   "resolutions": {
-    "autoprefixer": "10.4.19"
+    "autoprefixer": "10.4.5"
   },
   "browserslist": {
     "production": [
