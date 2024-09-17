@@ -97,16 +97,16 @@ function fetchAnalysisInput(geneSymbol) {
     return axios
       .all([
         axios.get(
-          `https://cdn-data-assets.extrameta.org/input/acute_blood/${geneSymbol.toUpperCase()}.json`
+          `https://ds415vxwhii54.cloudfront.net/input/acute_blood/${geneSymbol.toUpperCase()}.json`
         ).catch(useNull),
         axios.get(
-          `https://cdn-data-assets.extrameta.org/input/acute_muscle/${geneSymbol.toUpperCase()}.json`
+          `https://ds415vxwhii54.cloudfront.net/input/acute_muscle/${geneSymbol.toUpperCase()}.json`
         ).catch(useNull),
         axios.get(
-          `https://cdn-data-assets.extrameta.org/input/longterm_blood/${geneSymbol.toUpperCase()}.json`
+          `https://ds415vxwhii54.cloudfront.net/input/longterm_blood/${geneSymbol.toUpperCase()}.json`
         ).catch(useNull),
         axios.get(
-          `https://cdn-data-assets.extrameta.org/input/longterm_muscle/${geneSymbol.toUpperCase()}.json`
+          `https://ds415vxwhii54.cloudfront.net/input/longterm_muscle/${geneSymbol.toUpperCase()}.json`
         ).catch(useNull),
       ])
       .then(
