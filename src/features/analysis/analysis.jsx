@@ -174,7 +174,7 @@ function Analysis({
   // for a particular experiment
   function renderForestPlot(tissue) {
     if (inputFetchPayload && inputFetchPayload[tissue] && inputFetchPayload[tissue].data) {
-      const plot = `https://cdn-data-assets.extrameta.org/plots/${tissue}/${geneSymbol.toUpperCase()}.png`;
+      const plot = `https://ds415vxwhii54.cloudfront.net/plots/${tissue}/${geneSymbol.toUpperCase()}.png`;
 
       return (
         <div className="plot-container">
